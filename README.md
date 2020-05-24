@@ -1,8 +1,10 @@
-#  Note: I'll do a full rewrite of this repo. I hope to finish it towards the end of 2019 / beginning of 2020.
+# 2020 UI/UX Designer Roadmap 繁體中文版
+
+> 此項目基於[這個項目](https://github.com/togiberlin/ui-ux-designer-roadmap)的基礎上做開發，不僅僅翻譯原文，也加入更多新知識點
 
 ![UI/UX Designer Roadmap](http://i.imgur.com/clLNiOD.png)
 
-> Roadmap to becoming a UI/UX Designer in 2017
+> Roadmap to becoming a UI/UX Designer in 2020
 
 Below, you'll find a roadmap on how to become a UI/UX designer. It lists all common tools of the trade in order to become a digital creative. It is inspired by [this roadmap on how to become a web developer](https://github.com/kamranahmedse/developer-roadmap).
 
