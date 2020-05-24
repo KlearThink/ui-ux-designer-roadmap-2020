@@ -28,42 +28,42 @@ If you have any improvements, don't hesitate to post an [issue](https://github.c
  * [Contribution](#-contribution)
  * [License](#license)
 
+## 🚀 介紹
 
-## 🚀 Introduction
-Creating a successful tech startup depends on many factors. Having an aesthetic ```user interface (UI)``` and a great ```user experience (UX)``` are integral parts of entrepreneurial success. These interesting fields are quite young disciplines and require knowledge in different areas. When starting a small business, hiring lots of dedicated specialists with a limited budget is not realistic. Usually, the first iteration of a great Minimum Viable Product (MVP) is done by **hybrids**. This guide is meant to help you creating a great MVP and get at least 80% of the design/psychology right on the first try - **the lean way**.
+創建一個成功的科技新創仰賴許多因素。擁有美觀的```使用者介面 (UI)``` 與出色的```使用者體驗 (UX)``` 是建構企業成功的重要元素。這些有趣的領域是一個相當年輕的學科，需要具備不同領域的知識。在創辦一家小型企業時，在有限的預算內招聘許多專家是不切實際的。通常，第一代的最低可行性產品會是**混合**的。這份導引將會幫助你創造出好的最低可行性產品，讓你在第一次嘗試中，以最快速的方式習得最少八成的設計與心理學**理論**。
 
 ![The Lean Method of Building Startups by Eric Ries](https://cdn-images-1.medium.com/max/800/1*NmN8fTliAkgy1xpt9lLn7g.png)
 
 *Referenced from [https://cdn-images-1.medium.com/max/800/1*NmN8fTliAkgy1xpt9lLn7g.png](https://cdn-images-1.medium.com/max/800/1*NmN8fTliAkgy1xpt9lLn7g.png)*
 
-## Distinguishing Between UI and UX
-Often times, people use the terms ```UI``` and ```UX``` interchangeably. Despite some shared elements, there are notable differences. Here is a simple definition:
+## UI 和 UX 間的差異
 
-- When people say __UI__, they usually mean everything related to graphic design, colors, fonts, backgrounds, buttons, stock photos, icons etc.
-- When people say __UX__, they usually mean tasks related to psychology, human decision making, user research, personas, user stories, workflows, A/B testing, statistical evaluation and so on.
+**很多時候，人們經常將使用者介面與使用者經驗互換混用。儘管他們有些共同的部分，但仍有些本質上的不同。這裡有些簡單的定義：**
 
-Here, you see the common characteristics which both UI and UX people are expected to bring to the table:
+- **當人們談到使用者體驗，經常會聯想到圖像設計、顏色、字體、背景、按鈕、圖片與圖標等等**
+- **當人們提到使用者體驗時，通常指的是與心理學、人類決策、用戶研究、角色與用戶故事、工作流程、A/B 測試、統計評估等等**
+
+**以下，你可以看到使用者介面與使用者體驗這兩種工作者經常被期待具有什麼特質：**
 
 ![Intro Roadmap](http://i.imgur.com/1mddZ84.png)
+在設計任何東西之前，了解商業模型是最基本的事情。你想幫助你的客戶解決什麼痛點？為此，我建議你使用[商業模型畫布圖]((http://s3.amazonaws.com/academia.edu.documents/32253198/businessmodelgenerationpreview.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1497631663&Signature=Is7e1dMbArrSpo%2FOJnACX3dtzEk%3D&response-content-disposition=inline%3B%20filename%3DYoure_holding_a_handbook_for_visionaries.pdf))的框架。這個模板你可以從這裡[下載](https://canvanizer.com/downloads/business_model_canvas_poster.pdf)。
 
-Before designing anything, it is fundamental to understand the underlying business model. What pain do you want to solve for your customer? For that, I recommend using the [Business Model Canvas](http://s3.amazonaws.com/academia.edu.documents/32253198/businessmodelgenerationpreview.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1497631663&Signature=Is7e1dMbArrSpo%2FOJnACX3dtzEk%3D&response-content-disposition=inline%3B%20filename%3DYoure_holding_a_handbook_for_visionaries.pdf) framework. The template can be downloaded from [here](https://canvanizer.com/downloads/business_model_canvas_poster.pdf).
-
-## 🎨 User Interface Designer Roadmap
-The tools of the trade for UI design are mainly [Sketch](https://www.sketchapp.com/), [Adobe XD](http://www.adobe.com/de/products/experience-design.html), [Adobe Photoshop](http://www.adobe.com/de/products/photoshop.html) and [Adobe Illustrator](http://www.adobe.com/de/products/illustrator.html). Some UI designers also code HTML and CSS at work, so I've included it too.
+## 🎨 UI 學習路徑圖
+在使用者設計的領域，目前主流的工具有 [Sketch](https://www.sketchapp.com/)、[Adobe XD](http://www.adobe.com/de/products/experience-design.html)、[Adobe Photoshop](http://www.adobe.com/de/products/photoshop.html) 和 [Adobe Illustrator](http://www.adobe.com/de/products/illustrator.html)，而同時有些設計師會寫 HTML 和 CSS，所以我把他們涵括在內。
 
 ![UI Designer Roadmap](http://i.imgur.com/nGgB1ZF.png)
 
-### Use Symmetry for Great UI Designs
-Creating great UI designs can be hard, especially when you design for the first time. You design stuff but it always seems to lack that special _something_ compared to other, more "professional" designs. But you have no idea where to look for or what to improve. There is one guiding principle, which once understood, delivers **results immediately**. This guiding principle is **symmetry**. The rule is very simple: all objects must match each other in distance, size and thickness. Use this principle, whenever you can.
+### 利用對稱性，設計出更好的 UI 作品
+**創作一個好的 UI 作品是很困難的，特別是當你第一次設計的時候。你的作品跟那些稱得上「專業」的作品，比較起來總是缺少些特別的東西，但你又無從得知如何改進。這裡提供一個易懂且可以立即看到效果的方法。這個方法就是對稱性。這個原則非常簡單，所有物件都必須符合間距、大小和粗細。如果可以的話，盡可能地去遵循這個方法。**
 
-Consider this example: You compare 3 weather apps. 
+**舉個例子，以下有三個天氣的 App 可以讓你比較。**
 
 Random Weather App (Android)     | Yahoo! Weather App (iOS and Android)  | Apple Weather App (iOS only)  |
 |:------------------------------:|:------------------------------:|:-------------------------------:|
 
 ![Weather app example](http://i.imgur.com/N9cCHCV.jpg)
 
-> Intuitive evaluation: Random one (left) doesn't look nice. Yahoo Weather (middle) looks pretty okay. But it is Apple Weather (right) which looks best. Something is wrong with the random one (left) and Yahoo Weather (middle) - but what exactly?
+> 直觀來說，最左邊的並不好看。中間的看起來還行，但最右邊的看起來最好。到底這三款 App 的差別在哪？
 
 Criterion | Random Weather App (Left)  | Yahoo! Weather App (Middle)       | Apple Weather App (Right)      |
 | --------- | -------------------- | -------------------- | -------------------- |
