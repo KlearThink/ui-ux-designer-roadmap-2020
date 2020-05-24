@@ -23,7 +23,7 @@ If you have any improvements, don't hesitate to post an [issue](https://github.c
          * [做或不做：行為模式](#做或不做：行為模式)
          * [了解決策過程：CREATE操作渠道](#了解決策過程：CREATE操作渠道)
          * [養成習慣：勾癮定理](#養成習慣：勾癮定理)
-      * [將所有內容統一到UX願景:客戶體驗藍圖](#將所有內容統一到UX願景:客戶體驗藍圖)
+      * [將所有內容統一到UX願景:客戶體驗藍圖](#-將所有內容統一到UX願景:客戶體驗藍圖)
          * [推薦閱讀清單](#recommended-readings)
  * [Wrap Up](#-wrap-up)
  * [TODO](#-todo)
