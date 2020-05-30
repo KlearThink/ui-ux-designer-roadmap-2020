@@ -66,29 +66,139 @@ Roadmap to becoming a UI/UX Designer in 2020
 
 ![UI Designer Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/348f5fe9-6d5d-40d6-aec2-52f3d931e0c2/User_Interface_Designer_Roadmap.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T145807Z&X-Amz-Expires=86400&X-Amz-Signature=dc7d142c93a3a4f12632c068600f02be4ea28a1c8513d0a05d4f5c84266200ae&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22User_Interface_Designer_Roadmap.jpg%22)
 
+### Apple Human Interface Guideline
+
+為了最大限度地提高影響力和影響範圍，而既定了以下原則：
+
+1. 美學完整性（Aesthetic Integrity）
+
+    不是探討介面做得有多好看多完美，而是要提醒設計師在設計界面的時候，是否有搭配該功能的呈現來設計。比較容易理解的是「icon」，對於使用者要進入該功能是非常有密切的關係。
+
+2. 一致性（Consistency）
+
+    無論字體、顏色、介面風格、icon…等等，都是需要統一的，才不會影響使用操作上的混亂。
+
+3. 直覺性操作（Direct Manipulation）
+
+    介面設計要讓使用者直覺性的操作，看到畫面就能夠知道要怎麼執行以及使用該功能。比方，介面中button的設計就很重要。
+
+4. 反饋（Feedback）
+
+    適當的回饋(趣味性的回饋、提示性的回饋、引導性的回饋)對於使用者在操作app的愉悅程度也是有影響的。
+
+5. 隱喻（Metaphors）
+
+    利用視覺的設計手法，讓使用者在功能操作的時候可以達到前面提到的「直覺操作」、「回饋」。比方，滑動開關的操作、看電子書翻頁的操作…等等，類似於Norman所提出的Affordances預設用途。
+
+6. 使用者控制（User control）
+
+    重點是在「使用者」而不是「控制」。比方使用任何應用程式時，誤按按鈕，畫面會呈現選項。讓使用者覺得是自己在控制的，而不是被控制，這也是其中較難理解的小部分。
+
+#### iOS可操控空間
+
+邊界分別為
+
+![邊界](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/07b351bd-39d6-47cf-b988-1077f804d3c4/_2019-12-03_9.53.51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T160909Z&X-Amz-Expires=86400&X-Amz-Signature=43920516ee5022b24163438677082aa6910532ba6cff349b2b81f49a1369ae86&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_9.53.51.png%22)
+
+上部留44pt給狀態列；佈局邊距通常左右再內縮15pt。橫向時的安全區左右兩側皆內縮44pt；佈局邊距通常左右再內縮15pt。
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/af75b9fe-23a7-49c0-a7be-3050dca62f8b/3o150002ps9oqs2s4nss.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T160928Z&X-Amz-Expires=86400&X-Amz-Signature=a8e0a59c19ce9a9b73904933f59297295c739571333874d14a883a28c5cc0f34&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%223o150002ps9oqs2s4nss.jpg%22)
+
+#### 字體上比例表
+
+![字體上比例表](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a8c41b1d-80cb-41d7-9ec4-1eb14fe9cd9b/_2019-12-03_3.28.34-01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T160950Z&X-Amz-Expires=86400&X-Amz-Signature=dd92d17936c29a424818bc723c16b2d14ec87004a9eb28a4e2cfb5599696f93d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_3.28.34-01.png%22)
+
+iOS中的基準字體大小為17點，而macOS中最常見的字體大小為13點。
+
+#### BAR
+
+Navigation Bars（導覽欄）
+
+導覽列，會放上一頁、編輯、新增、完成按鈕，還會放LOGO的地方。
+
+Status Bars（狀態欄）
+
+用來顯示時間、電池及電信廠商的區域。
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dfdbe6bf-9e9f-457b-b563-6758c8ece827/uisdc-pg-20181014-52.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161021Z&X-Amz-Expires=86400&X-Amz-Signature=1ff13769ad73b2d0aab11e5a4d52172c06ec6b3426a372bca3cf0763c9ce3281&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22uisdc-pg-20181014-52.jpg%22)
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d576f9a-549e-41b5-9837-e88d69b2c0f1/uisdc-pg-20181014-17.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161022Z&X-Amz-Expires=86400&X-Amz-Signature=21a7c32455ef9e2ec4b7bcea8906515b8e9b94053e0b54c893c0d3027dd09fd1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22uisdc-pg-20181014-17.jpg%22)
+
+
+在Navigaion Bars icon尺寸
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c0655a86-74a9-49f9-9b3b-76ef5ab7b246/_2019-12-03_11.21.10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161117Z&X-Amz-Expires=86400&X-Amz-Signature=8df6189af863fdb01dc1dc40015b35dc3034968e43da4e74b789acf1b19fb10b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.21.10.png%22)
+
+Search Bars（搜尋欄）
+
+顧名思義搜尋欄位，此爛位上必須要有取消鍵。
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa53d4fd-0528-4235-87b1-23fc3151c8f7/_2019-12-03_11.27.47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161149Z&X-Amz-Expires=86400&X-Amz-Signature=c97f41d825f7813c72459a1db57a81170c2127e242c9e360c086a9f2ab1aedd0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.27.47.png%22)
+
+Tab Bars（標籤欄）
+
+出現在屏幕的底部，最多只能放 5 個 icon，超過選項系統內建會把第 5 個icon變成「…」。
+
+不同裝置的比例差異
+![不同裝置的比例差異](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4b8eed7e-2dda-44aa-bf57-8f3e56337293/uisdc-pg-20181014-55.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161207Z&X-Amz-Expires=86400&X-Amz-Signature=fe0c800b59b3073038070c11cd2085b9c255ec6ebad040e75e823d06bd5a0bbe&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22uisdc-pg-20181014-55.jpg%22)
+
+自定義的標籤尺寸大小規範
+![自定義的標籤尺寸大小規範](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3f07148e-b3ce-4026-84c2-ae4d7f92f3b0/_2019-12-03_11.20.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161218Z&X-Amz-Expires=86400&X-Amz-Signature=4f18c4fa6385957fc0c458d67e4be5755decf8b13fb116288c0025dfdc4f196a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.20.42.png%22)
+
+Tool Bars（工具欄）
+
+出現在屏幕的底部，提供相關的工具欄按鈕，另外工具欄包含多個按鈕，則這些按鈕的文本可能會同時顯示，使按鈕難以區分。通過在按鈕之間插入固定空間來增加間隔。
+
+整體高度略窄，它的高度是44pt（88px）
+
+Segmented control（分段控件）
+
+通常位於導覽見下方，通常拿來切換列表。
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b074a1c8-b9d4-44ce-9f32-cd9eb204e7db/_2019-12-03_5.18.06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161307Z&X-Amz-Expires=86400&X-Amz-Signature=85767e6c16b849d9d2712ac744579a72b892d652b5d7b3c982c9f76c8ba2099f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_5.18.06.png%22)
+
+Modal view
+
+由下而上浮出的視窗，通常在使用者中途想插入額外操作或瀏覽更多訊息時使用。在iPhone上為滿版，ipad有固定尺寸。
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0457164f-b54e-4094-b903-2cbefd7f3616/_2019-12-03_5.15.12.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161331Z&X-Amz-Expires=86400&X-Amz-Signature=ba7e037b404c38e635678e65b2708612628b3ccc55c43d1ee25d3a47f170070d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_5.15.12.png%22)
+
+## 應用圖標icon
+
+應用程式當中圖標及App Store圖標設計規範
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/be85da60-ddef-465f-869d-e8238fad84af/_2019-12-03_11.18.41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161353Z&X-Amz-Expires=86400&X-Amz-Signature=c023d0e25633c3498462622987cefaa5c1b3c5f9da8ad4ab41a078ff29a3569b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.18.41.png%22)
+
+三種不同情境下的圖標尺寸規範
+
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9726abea-63a4-4cf0-9b6f-5476160e235b/_2019-12-03_3.28.34-01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161415Z&X-Amz-Expires=86400&X-Amz-Signature=a371dd4fcc6e88e910da023b7854d372ac48588e4505382e08f32be2bc809666&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_3.28.34-01.png%22)
+
+#### 這是 ios 所提出 UIKit，有sketch、ps、xd能夠下載
+
+[Apple Design Resources](https://developer.apple.com/design/resources/)
+
 ### 利用對稱性，設計出更好的 UI 作品
 
 **當你第一次設計時，很難創作一個好的 UI 作品。你的作品跟那些稱得上「專業」的作品，比較起來總是缺少些什麼，但卻又無從得知如何改進。這裡提供一個易懂且可以立即看到效果的方法  —— 對稱性。這個原則非常簡單，所有物件都必須符合間距、大小和粗細。如果可以的話，盡可能地去遵循這個方法。**
 
 **舉個例子，以下有三個天氣的 App 可以讓你比較。**
-
-Random Weather App (Android)     | Yahoo! Weather App (iOS and Android)  | Apple Weather App (iOS only)  |
+​
+天氣 App (Android)     | Yahoo! 天氣 App (iOS and Android)  | Apple 天氣 App (僅 iOS)  |
 |:------------------------------:|:------------------------------:|:-------------------------------:|
-
+​
 ![Weather app example](http://i.imgur.com/N9cCHCV.jpg)
-
+​
 > 直觀來說，最左邊的並不好看。中間的看起來還行，但最右邊的看起來最好。到底這三款 App 的差別在哪？
-
-Criterion | Random Weather App (Left)  | Yahoo! Weather App (Middle)       | Apple Weather App (Right)      |
+​
+標準 | Random 天氣 App (左)  | Yahoo! 天氣 App (中)       | Apple 天氣 App (右)      |
 | --------- | -------------------- | -------------------- | -------------------- |
-Left-right symmetry | 🚫 No left-right symmetry. Not centered at all. | ⚠️ Top part left-aligned, overall not 100% symmetrical. Most items are centered. | ✅ Full left-right symmetry, fully centered. |
-Font color | 🚫 5 different font colors. Font colors don't match. | ✅ 3 font colors. Font colors match. | ✅ 1 font color in 2 different opacities. Font colors match. |
-Font size | 🚫 Approx. 7 different font sizes. | ⚠️ Approx. 6 different font sizes. | ✅ Approx. 4 different font sizes. |
-Font weight | 🚫 2 different font weights. Bold/regular fonts mixed. | ✅ All fonts are in regular style. However, Flickr icon font doesn't match, but this is very minor. | ✅ All fonts are in regular style. |
-Symbols | 🚫 Symbols don't match is size and style. E.g. Some clouds are larger/smaller; some have outlines, some not. | ✅ Symbols match. | ✅ Symbols match. |
-Button count | 🚫 Too many buttons, too many choices. | ✅ Very few buttons. Usage through swiping. | ✅ Very few buttons. Usage through swiping. |
-Button style | 🚫 Button sizes don't match. Some are long, some short. | ⚠️ Thickness of navigation drawer menu and plus button doesn't match with other symbols. | ✅ Only one visible button in bottom right corner. Button style and line-thickness of symbol does match with overall UI. |
-Layout | 🚫 Distance between objects varies. Not aligned to an evenly spaced grid. | ⚠️ Not 100% evenly spaced. E.g. Flickr icon too close to the rim compared to the plus icon. Bottom-right icon doesn't have an equivalent on bottom-left corner. | ✅ Evenly spaced. |
+左右對稱 | 🚫 左右不對稱且內容沒有置中。 | ⚠️ 上半部靠左，並非所有元素對稱，大部分置中。| ✅ 全部皆左右對稱且置中。 |
+字體顏色 | 🚫 5 種不同的字體顏色且顏色上並沒有合適地搭配。  | ✅ 3 種不同的字體顏色且顏色上有合適地搭配。 | ✅ 1 種字體顏色，並使用 2 種不同的透明度做區隔，顏色上搭配合宜。 |
+字體大小 | 🚫 約 7 種不同的字體大小。 | ⚠️ 約 6 種不同的字體大小。 | ✅ 約 4 種不同的字體大小。 |
+字重 | 🚫 2 種不同的字重，且粗體與一般混合使用。 | ✅ 所有字體皆為一般大小，但「Flickr」 的圖示字重並不合適，但這影響較為輕微。 | ✅ 所有字體皆為一般字重 |
+圖示 | 🚫 圖示的大小與風格並不合適。例如：有些雲太大或太小，有些具有外框線而部分沒有。 | ✅ 合適的圖示。 | ✅ 合適的圖示。 |
+按鈕數量 | 🚫 太多按鈕，太多選擇。 | ✅ 少量按鈕，使用上透過滑動。 | ✅ 少量按鈕，使用上透過滑動。 |
+按鈕風格 | 🚫 按鈕大小不合適，有些太大，有些則太小。 | ⚠️ 左上角的「+」與整體設計不符。 | ✅ 僅有一個按鈕在畫面右下角，按鈕的風格、圖示與大小都符合整體設計。 |
+整體畫面 | 🚫 元件與元件間的距離不一，且沒有適當的間隔。 | ⚠️ 並非所有元件都被妥善地放置。例如：「Flickr」相對於「+」太靠近邊界、右下角的圖示使整體畫面相較於左下角來說並不對稱。 | ✅ 所有元件皆均勻分布。 |
 
 ## 🔮 使用者體驗學習路徑圖
 
@@ -295,7 +405,7 @@ Stephen Wendel 撰寫的 CREATE Action Funnel 對解釋行為和行為很有用�
 
 ### 推薦閱讀清單
 
-This guide explained in **20%** of time **80%** of all concepts. However if you want to dig deeper, I highly recommend reading the following books. You can find them on e.g. Amazon:
+此教學利用了 20% 時間解釋了 80% 的概念。然而，若你希望能了解更多的資訊，我非常推薦你看以下列出的幾本書，你可以在 Amazon、博客來 等商店上找到他們。（團隊另外補充了一些中文書）
 
 - [精實UX設計：帶領敏捷團隊打造出色的產品(第二版)](https://www.books.com.tw/products/0010756527)
 - [UX從新手開始：使用者體驗的100堂必修課](https://www.books.com.tw/products/0010733244?loc=P_br_r0vq68ygz_D_2aabd0_B_1)
@@ -336,3 +446,6 @@ If you are interested in contributing to this repo, we use [Balsamiq Mockups](ht
 * [yasuoyuhao](https://github.com/yasuoyuhao)
 
 * [CourtneyLiang](https://github.com/CourtneyLiang)
+
+* Tracy Lai
+* Carina Lin
