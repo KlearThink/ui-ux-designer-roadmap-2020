@@ -17,7 +17,9 @@ Roadmap to becoming a UI/UX Designer in 2020
  * [UI 和 UX 間的差異](#-UI-和-UX-間的差異)
  * [🎨 UI 學習路徑圖](#-🎨-UI-學習路徑圖)
       * [Apple Human Interface Guideline](#AppleHumanInterfaceGuideline)
+      * [Android Guideline Material Design](#AndroidGuidelineMaterialDesign)
       * [利用對稱性，設計出更好的 UI 作品](#利用對稱性，設計出更好的-UI-作品)
+      * [完形心理學](#完形心理學)
  * [🔮 使用者體驗學習路徑圖](#-🔮-使用者體驗學習路徑圖)
       * [UX 模式範例：有效地應用推力理論](#UX-模式範例：有效地應用推力理論)
          * [佔據潛意識](#佔據潛意識)
@@ -95,87 +97,44 @@ Roadmap to becoming a UI/UX Designer in 2020
 
     重點是在「使用者」而不是「控制」。比方使用任何應用程式時，誤按按鈕，畫面會呈現選項。讓使用者覺得是自己在控制的，而不是被控制，這也是其中較難理解的小部分。
 
-#### iOS可操控空間
+[Apple Human Interface Guideline 完整閱讀請點此](https://www.notion.so/klearthink/iOS-Guideline-55dba02c77424ec9b2d1bcd5dfc2d283)
 
-邊界分別為
+### Android Guideline Material Design
+創造一種視覺語言，遵循創新技術和科學的可能性， 組合出良好設計的經典原則。
 
-![邊界](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/07b351bd-39d6-47cf-b988-1077f804d3c4/_2019-12-03_9.53.51.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T160909Z&X-Amz-Expires=86400&X-Amz-Signature=43920516ee5022b24163438677082aa6910532ba6cff349b2b81f49a1369ae86&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_9.53.51.png%22)
+- Material Design是一個3D空間，每一個material表單在z軸上佔據一個位置並且有一個標準的1dp厚度（如圖）。
+- 另外Material有兩個不同的維度x與y（以dps為單位）和一個**統一的厚度（1dp）**。**Material絕對不會有厚度為0的情況。**
+- Material根據不同高度產生相對應的陰影呈現，且加入內容也不會增加Material厚度。更是善用陰影引導使用者對任何按鈕的affordance。
+- Material每個物件都是獨立體積，既不能物體之間互相穿透，不會有半透明、融合、彎折等現象表現，且必須平行於螢幕上
+- Material有靈活的形狀表現，能夠多個組成一個，也能一個拆成多個。
+- 所有Material物件都有一個靜止高度，不論這個物件是一個小元件或者是一個橫跨整個顯示畫面的表單。
+- Ｍaterial Design重視動畫效果，它反覆強調一點：動畫不只是裝飾，它有含義，能表達元素、介面之間的關係，具備功能上的作用。
 
-上部留44pt給狀態列；佈局邊距通常左右再內縮15pt。橫向時的安全區左右兩側皆內縮44pt；佈局邊距通常左右再內縮15pt。
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/720fd7f5-8748-4bbf-bb2e-5c6f861146de/whatismaterial_environment_3d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T162542Z&X-Amz-Expires=86400&X-Amz-Signature=d8b33378e7737db0b8081782b8afc6767081296c3c4de936b95c1533d1756521&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22whatismaterial_environment_3d.png%22)
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/af75b9fe-23a7-49c0-a7be-3050dca62f8b/3o150002ps9oqs2s4nss.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T160928Z&X-Amz-Expires=86400&X-Amz-Signature=a8e0a59c19ce9a9b73904933f59297295c739571333874d14a883a28c5cc0f34&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%223o150002ps9oqs2s4nss.jpg%22)
+1. 質感隱喻（Material is the metaphor）
 
-#### 字體上比例表
+    質感隱喻是針對合理的空間以及系統的運作訂定出的統一理論，使用熟悉的觸覺特性可以幫助用戶快速了解其中暗示。基本的光、外觀和運行是如何傳達物件移動的關鍵，存在空間與互動作用彼此相互關聯， 逼真的照明能夠顯示接縫，劃分空間，並說明了移動部件。
 
-![字體上比例表](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a8c41b1d-80cb-41d7-9ec4-1eb14fe9cd9b/_2019-12-03_3.28.34-01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T160950Z&X-Amz-Expires=86400&X-Amz-Signature=dd92d17936c29a424818bc723c16b2d14ec87004a9eb28a4e2cfb5599696f93d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_3.28.34-01.png%22)
+2. 大膽、圖形、動機（Bold, graphic, intentional）
 
-iOS中的基準字體大小為17點，而macOS中最常見的字體大小為13點。
+    基礎設計裡的基本元素 - 排版、網格、空間、尺度、色彩，和用圖像引導的視覺處理，對使用者動作的強調使得主要的功能立刻凸顯出來並且提供了導航路徑。
 
-#### BAR
+3. 動畫提供意義（Motion provides meaning）
 
-Navigation Bars（導覽欄）
+    運動通過微妙的反饋和連貫的來吸引注意力並保持連續性。
 
-導覽列，會放上一頁、編輯、新增、完成按鈕，還會放LOGO的地方。
+4. 靈活性基礎（Flexible foundation）
 
-Status Bars（狀態欄）
+    Material Design 是一種品牌表達方式。
 
-用來顯示時間、電池及電信廠商的區域。
+5. 跨平台（Cross-platform）
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dfdbe6bf-9e9f-457b-b563-6758c8ece827/uisdc-pg-20181014-52.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161021Z&X-Amz-Expires=86400&X-Amz-Signature=1ff13769ad73b2d0aab11e5a4d52172c06ec6b3426a372bca3cf0763c9ce3281&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22uisdc-pg-20181014-52.jpg%22)
+    [對話框](https://www.notion.so/1b8cddea3a274ed4ab993a6bba80ea11)
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9d576f9a-549e-41b5-9837-e88d69b2c0f1/uisdc-pg-20181014-17.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161022Z&X-Amz-Expires=86400&X-Amz-Signature=21a7c32455ef9e2ec4b7bcea8906515b8e9b94053e0b54c893c0d3027dd09fd1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22uisdc-pg-20181014-17.jpg%22)
+    Material Design使用Android，iOS，Flutter和Web上的共享組件在各個平台上維護相同的UI。
 
-
-在Navigaion Bars icon尺寸
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c0655a86-74a9-49f9-9b3b-76ef5ab7b246/_2019-12-03_11.21.10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161117Z&X-Amz-Expires=86400&X-Amz-Signature=8df6189af863fdb01dc1dc40015b35dc3034968e43da4e74b789acf1b19fb10b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.21.10.png%22)
-
-Search Bars（搜尋欄）
-
-顧名思義搜尋欄位，此爛位上必須要有取消鍵。
-
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa53d4fd-0528-4235-87b1-23fc3151c8f7/_2019-12-03_11.27.47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161149Z&X-Amz-Expires=86400&X-Amz-Signature=c97f41d825f7813c72459a1db57a81170c2127e242c9e360c086a9f2ab1aedd0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.27.47.png%22)
-
-Tab Bars（標籤欄）
-
-出現在屏幕的底部，最多只能放 5 個 icon，超過選項系統內建會把第 5 個icon變成「…」。
-
-不同裝置的比例差異
-![不同裝置的比例差異](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4b8eed7e-2dda-44aa-bf57-8f3e56337293/uisdc-pg-20181014-55.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161207Z&X-Amz-Expires=86400&X-Amz-Signature=fe0c800b59b3073038070c11cd2085b9c255ec6ebad040e75e823d06bd5a0bbe&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22uisdc-pg-20181014-55.jpg%22)
-
-自定義的標籤尺寸大小規範
-![自定義的標籤尺寸大小規範](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3f07148e-b3ce-4026-84c2-ae4d7f92f3b0/_2019-12-03_11.20.42.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161218Z&X-Amz-Expires=86400&X-Amz-Signature=4f18c4fa6385957fc0c458d67e4be5755decf8b13fb116288c0025dfdc4f196a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.20.42.png%22)
-
-Tool Bars（工具欄）
-
-出現在屏幕的底部，提供相關的工具欄按鈕，另外工具欄包含多個按鈕，則這些按鈕的文本可能會同時顯示，使按鈕難以區分。通過在按鈕之間插入固定空間來增加間隔。
-
-整體高度略窄，它的高度是44pt（88px）
-
-Segmented control（分段控件）
-
-通常位於導覽見下方，通常拿來切換列表。
-
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b074a1c8-b9d4-44ce-9f32-cd9eb204e7db/_2019-12-03_5.18.06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161307Z&X-Amz-Expires=86400&X-Amz-Signature=85767e6c16b849d9d2712ac744579a72b892d652b5d7b3c982c9f76c8ba2099f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_5.18.06.png%22)
-
-Modal view
-
-由下而上浮出的視窗，通常在使用者中途想插入額外操作或瀏覽更多訊息時使用。在iPhone上為滿版，ipad有固定尺寸。
-
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0457164f-b54e-4094-b903-2cbefd7f3616/_2019-12-03_5.15.12.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161331Z&X-Amz-Expires=86400&X-Amz-Signature=ba7e037b404c38e635678e65b2708612628b3ccc55c43d1ee25d3a47f170070d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_5.15.12.png%22)
-
-#### 應用圖標icon
-
-應用程式當中圖標及App Store圖標設計規範
-
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/be85da60-ddef-465f-869d-e8238fad84af/_2019-12-03_11.18.41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161353Z&X-Amz-Expires=86400&X-Amz-Signature=c023d0e25633c3498462622987cefaa5c1b3c5f9da8ad4ab41a078ff29a3569b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_11.18.41.png%22)
-
-三種不同情境下的圖標尺寸規範
-
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9726abea-63a4-4cf0-9b6f-5476160e235b/_2019-12-03_3.28.34-01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161415Z&X-Amz-Expires=86400&X-Amz-Signature=a371dd4fcc6e88e910da023b7854d372ac48588e4505382e08f32be2bc809666&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_3.28.34-01.png%22)
-
-#### 這是 ios 所提出 UIKit，有sketch、ps、xd能夠下載
-
-[Apple Design Resources](https://developer.apple.com/design/resources/)
+[Android Guideline Material Design 完整閱讀請點此](https://www.notion.so/klearthink/Android-Guideline-Material-Design-431c332e0b9d4e43a952b79d9acce278)
 
 ### 利用對稱性，設計出更好的 UI 作品
 
@@ -202,6 +161,14 @@ Modal view
 按鈕數量 | 🚫 太多按鈕，太多選擇。 | ✅ 少量按鈕，使用上透過滑動。 | ✅ 少量按鈕，使用上透過滑動。 |
 按鈕風格 | 🚫 按鈕大小不合適，有些太大，有些則太小。 | ⚠️ 左上角的「+」與整體設計不符。 | ✅ 僅有一個按鈕在畫面右下角，按鈕的風格、圖示與大小都符合整體設計。 |
 整體畫面 | 🚫 元件與元件間的距離不一，且沒有適當的間隔。 | ⚠️ 並非所有元件都被妥善地放置。例如：「Flickr」相對於「+」太靠近邊界、右下角的圖示使整體畫面相較於左下角來說並不對稱。 | ✅ 所有元件皆均勻分布。 |
+
+### 完形心理學
+
+[完形心理學 完整閱讀請點此](https://www.notion.so/klearthink/f707baf881f84982bca369d22e692c47)
+
+### 圖像單位
+
+[圖像單位 完整閱讀請點此](https://www.notion.so/klearthink/d88525f99bd846e4b4d2b83d577249e8)
 
 ## 🔮 使用者體驗學習路徑圖
 
@@ -380,6 +347,10 @@ Stephen Wendel 撰寫的 CREATE Action Funnel 對解釋行為和行為很有用�
 - 投資：彼得是個肥胖症嚴重的人。他開始在 Instagram 上發布自己的進度。在 2 年內，他減了 60磅。感覺很棒，因為志趣相投的人鼓勵他，並將他推向新的高度。彼得發表有關自己的進步的文章越多，得到的反饋就越積極。彼得關於自己的文章越多，他就越感到被**獎勵**。他對 Instagram 平台的**投資**獲得了回報。
 
 彼得越過鉤癮週期，他對 Instagram 的依賴就越堅定。現在，經過 2 年的使用，他無法想像沒有使用 Instagram 的生活。使用 Instagram 已成為一種根深蒂固的習慣。
+
+### 北極星指標
+
+[北極星指標 完整閱讀請按此](https://www.notion.so/klearthink/7bc3ad6bbf0247d58ef00b7046defc19)
 
 ## 將所有內容統一到UX願景: 客戶體驗藍圖
 
