@@ -2,8 +2,6 @@
 
 > 此項目基於[這個項目](https://github.com/togiberlin/ui-ux-designer-roadmap)的基礎上做開發，團隊不僅僅翻譯原文，也加入更多新知識點、更新與整理。
 
-![UI/UX Designer Roadmap](http://i.imgur.com/clLNiOD.png)
-
 > 2020 成為 UI / UX 設計師路線圖
 Roadmap to becoming a UI/UX Designer in 2020
 
@@ -20,6 +18,7 @@ Roadmap to becoming a UI/UX Designer in 2020
       * [Android Guideline Material Design](#AndroidGuidelineMaterialDesign)
       * [利用對稱性，設計出更好的 UI 作品](#利用對稱性，設計出更好的-UI-作品)
       * [完形心理學](#完形心理學)
+      * [圖像單位](#圖像單位)
  * [🔮 使用者體驗學習路徑圖](#-🔮-使用者體驗學習路徑圖)
       * [UX 模式範例：有效地應用推力理論](#UX-模式範例：有效地應用推力理論)
          * [佔據潛意識](#佔據潛意識)
@@ -38,6 +37,7 @@ Roadmap to becoming a UI/UX Designer in 2020
          * [做或不做：行為模式](#做或不做：行為模式)
          * [了解決策過程：CREATE操作渠道](#了解決策過程：CREATE操作渠道)
          * [養成習慣：勾癮定理](#養成習慣：勾癮定理)
+      * [北極星指標](#北極星指標)
       * [將所有內容統一到UX願景:客戶體驗藍圖](#將所有內容統一到ux願景客戶體驗藍圖)
          * [推薦閱讀清單](#推薦閱讀清單)
  * [Wrap Up](#-wrap-up)
