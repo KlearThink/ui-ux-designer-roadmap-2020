@@ -300,7 +300,7 @@ Instagram 有一個自動播放的 UX 模式。如果你什麼也不做，Instag
 
 ### 做或不做：行為模式
 
-![BJ Fogg's Behavior Model](http://www.behaviormodel.org/index_files/bj-fogg-behavior-model-grapic.jpg)
+![BJ Fogg's Behavior Model](https://www.researchgate.net/profile/Mindy_Silva/publication/332383756/figure/fig1/AS:749126786510850@1555617152741/Fogg-behaviour-model-From-BJ-Foggs-Behavior-Model-by-B-J-Fogg-2018.ppm)
 
 參考資料：http://www.behaviormodel.org/
 
