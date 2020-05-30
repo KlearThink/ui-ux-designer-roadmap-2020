@@ -19,13 +19,24 @@ Roadmap to becoming a UI/UX Designer in 2020
       * [利用對稱性，設計出更好的 UI 作品](#利用對稱性，設計出更好的-UI-作品)
  * [🔮 使用者體驗學習路徑圖](#-🔮-使用者體驗學習路徑圖)
       * [UX 模式範例：有效地應用推力理論](#UX-模式範例：有效地應用推力理論)
+         * [佔據潛意識](#佔據潛意識)
+         * [秩序](#秩序)
+         * [好奇心](#好奇心)
+         * [默認模式](#默認模式)
+         * [社會責任感](#社會責任感)
+         * [競爭心理](#競爭心理)
+         * [從眾效應](#從眾效應)
+         * [價格錨點](#價格錨點)
+         * [情感品牌](#情感品牌)
+         * [損失厭惡](#損失厭惡)
+         * [錨定效應](#錨定效應)
       * [了解人類決策：人類是（非）理性的](#了解人類決策：人類是（非）理性的)
          * [快慢思考：雙重過程理論](#快慢思考：雙重歷程理論)
          * [做或不做：行為模式](#做或不做：行為模式)
          * [了解決策過程：CREATE操作渠道](#了解決策過程：CREATE操作渠道)
          * [養成習慣：勾癮定理](#養成習慣：勾癮定理)
       * [將所有內容統一到UX願景:客戶體驗藍圖](#將所有內容統一到ux願景客戶體驗藍圖)
-         * [推薦閱讀清單](#recommended-readings)
+         * [推薦閱讀清單](#推薦閱讀清單)
  * [Wrap Up](#-wrap-up)
  * [TODO](#-todo)
  * [Contribution](#-contribution)
@@ -282,10 +293,16 @@ Stephen Wendel 撰寫的 CREATE Action Funnel 對解釋行為和行為很有用�
 - 如果要在電腦上創建 UX 地圖，請點擊[此處](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/resources/ux_map.docx)以獲取即用型 Word 模板
 - 如果要在現場腦力激盪中創建 UX 地圖，請點擊[此處](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/resources/ux_map.pdf)以獲取易於印出的 PDF 模板
 
-### Recommended Readings
+### 推薦閱讀清單
 
 This guide explained in **20%** of time **80%** of all concepts. However if you want to dig deeper, I highly recommend reading the following books. You can find them on e.g. Amazon:
 
+- [精實UX設計：帶領敏捷團隊打造出色的產品(第二版)](https://www.books.com.tw/products/0010756527)
+- [UX從新手開始：使用者體驗的100堂必修課](https://www.books.com.tw/products/0010733244?loc=P_br_r0vq68ygz_D_2aabd0_B_1)
+- [使用者故事對照：User Story Mapping](https://www.books.com.tw/products/0010712916?loc=P_br_r0vq68ygz_D_2aabd0_B_1)
+- [資訊架構學：網站、App與資訊生態系統規劃（第四版）](https://www.books.com.tw/products/0010774361?loc=P_br_r0vq68ygz_D_2aabd0_B_1)
+- [平靜科技：不擾人的設計原則與模式](https://www.books.com.tw/products/0010733248)
+- [設計的心理學：人性化的產品設計如何改變世界(3版)](https://www.books.com.tw/products/0010643797?loc=P_br_r0vq68ygz_D_2aabd0_B_2)
 - [**Wendel, Stephen (2013)**: _"Designing for Behavior Change: Applying Psychology and Behavioral Economics"_, O'Reilly Media, USA](http://amzn.to/2s8IVsX) 
 - [**Eyal, Nir (2014)**: _"Hooked: How to Build Habit-Forming Products"_, Penguin Books, UK](http://amzn.to/2sAdDfV)
 - [**Nodder, Chris (2013)**: _"Evil by Design: Interaction Design to Lead Us into Temptation"_, John Wiley & Sons, USA](http://amzn.to/2s90Qjl)
@@ -293,7 +310,7 @@ This guide explained in **20%** of time **80%** of all concepts. However if you 
 
 ## 🚦 Wrap Up
 
-If you think any of the roadmaps can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
+假如您認為路線圖可以做優化或需要更正，可以 PR 或者提交任何 issue 讓我們知道。除此之外我們也會對此項目做持續改進與維護，希望您可以持續關注。
 
 ## ☑ TODO
 
