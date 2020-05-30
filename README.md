@@ -1,23 +1,21 @@
 # 2020 UI/UX Designer Roadmap 繁體中文版
 
-> 此項目基於[這個項目](https://github.com/togiberlin/ui-ux-designer-roadmap)的基礎上做開發，不僅僅翻譯原文，也加入更多新知識點
+> 此項目基於[這個項目](https://github.com/togiberlin/ui-ux-designer-roadmap)的基礎上做開發，團隊不僅僅翻譯原文，也加入更多新知識點、更新與整理。
 
 ![UI/UX Designer Roadmap](http://i.imgur.com/clLNiOD.png)
 
-> Roadmap to becoming a UI/UX Designer in 2020
-
 > 2020 成為 UI / UX 設計師路線圖
+Roadmap to becoming a UI/UX Designer in 2020
 
-以下內容中，你可以依循地圖去了解如何成為一個 UI/UX 設計師。文章內列舉了所有常用的工具以及趨勢，讓你可以成為一個數位化的創作者。這份地圖的靈感來自於 [如何成為一個網站開發者](https://github.com/kamranahmedse/developer-roadmap).
+在下列內容中，你可以依循路線地圖去了解如何成為一個 UI/UX 設計師。文章內列舉了所有常用的工具以及趨勢，讓你可以成為一個數位文化的創作者。這份地圖的靈感來自於 [如何成為一個網站開發者](https://github.com/kamranahmedse/developer-roadmap)
 
-您也可以提出任何改進 `issue`，或者提交您的 [pull request](https://github.com/KlearThink/ui-ux-designer-roadmap/pulls)
-If you have any improvements, don't hesitate to post an [issue](https://github.com/togiberlin/designer-roadmap/issues) or make a [pull request](https://github.com/togiberlin/designer-roadmap/pulls) 🙃
+您也可以提出任何改進 [issue](https://github.com/KlearThink/ui-ux-designer-roadmap-2020/issues)，或者提交您的 [pull request](https://github.com/KlearThink/ui-ux-designer-roadmap/pulls) 🙃
 
-## 📖 Table Of Contents
+## 📖 目錄
 
  * [🚀 介紹](#-🚀-介紹)
  * [UI 和 UX 間的差異](#-UI-和-UX-間的差異)
- * [🎨-UI-學習路徑圖](#-🎨-UI-學習路徑圖)
+ * [🎨 UI 學習路徑圖](#-🎨-UI-學習路徑圖)
       * [利用對稱性，設計出更好的 UI 作品](#利用對稱性，設計出更好的-UI-作品)
  * [🔮 使用者體驗學習路徑圖](#-🔮-使用者體驗學習路徑圖)
       * [UX 模式範例：有效地應用推力理論](#UX-模式範例：有效地應用推力理論)
