@@ -381,6 +381,7 @@ Stephen Wendel 撰寫的 CREATE Action Funnel 對解釋行為和行為很有用�
 
 此教學利用了 20% 時間解釋了 80% 的概念。然而，若你希望能了解更多的資訊，我非常推薦你看以下列出的幾本書，你可以在 Amazon、博客來 等商店上找到他們。（團隊另外補充了一些中文書）
 
+- [從 0 到 1 的 DevOps 文化建立-UX建設篇-我們開始實踐半年的 UX 流程與思維](https://medium.com/@YasuoYuHao/%E5%BE%9E-0-%E5%88%B0-1-%E7%9A%84-devops-%E6%96%87%E5%8C%96%E5%BB%BA%E7%AB%8B-ux%E5%BB%BA%E8%A8%AD%E7%AF%87-%E6%88%91%E5%80%91%E5%BE%9E-0-%E9%96%8B%E5%A7%8B%E5%BB%BA%E8%A8%AD%E7%9A%84-ux-%E6%B5%81%E7%A8%8B%E8%88%87%E6%80%9D%E7%B6%AD-24a2e704715a?source=friends_link&sk=e4f5be9b316f98748ed9135035b5df95)
 - [精實UX設計：帶領敏捷團隊打造出色的產品(第二版)](https://www.books.com.tw/products/0010756527)
 - [UX從新手開始：使用者體驗的100堂必修課](https://www.books.com.tw/products/0010733244?loc=P_br_r0vq68ygz_D_2aabd0_B_1)
 - [使用者故事對照：User Story Mapping](https://www.books.com.tw/products/0010712916?loc=P_br_r0vq68ygz_D_2aabd0_B_1)
