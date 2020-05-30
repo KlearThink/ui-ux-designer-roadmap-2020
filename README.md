@@ -54,7 +54,7 @@ Roadmap to becoming a UI/UX Designer in 2020
 
 **大多時候，我們經常將使用者介面與使用者體驗搞混，雖然兩這有重合之處，但從定義上來看，兩者則是相去甚遠。**
 
-- **當我們談到使用者體驗，經常會聯想到圖像設計、顏色、字體、背景、按鈕、圖片與圖標等等**
+- **當我們談到使用者介面時，經常會聯想到圖像設計、顏色、字體、背景、按鈕、圖片與圖標等等**
 - **當人們提到使用者體驗時，通常指的是與心理學、人類決策、用戶研究、角色與用戶故事、工作流程、A/B 測試、統計評估等等**
 
 ![Intro Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bc061a04-5119-4b63-938f-2a9bff7e62e7/Distinguishing_Between_UI_and_UX.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T145708Z&X-Amz-Expires=86400&X-Amz-Signature=9af1e00638400832f09fb3c357a4881c7c09e2499302f8c99d40889bc5f8d7f2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Distinguishing_Between_UI_and_UX.jpg%22)
