@@ -318,5 +318,6 @@ If you are interested in contributing to this repo, we use [Balsamiq Mockups](ht
 
 ## 貢獻者
 
-@yasuoyuhao
-@CourtneyLiang
+* [yasuoyuhao](https://github.com/yasuoyuhao)
+
+* [CourtneyLiang](https://github.com/CourtneyLiang)
