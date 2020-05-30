@@ -162,7 +162,7 @@ Modal view
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0457164f-b54e-4094-b903-2cbefd7f3616/_2019-12-03_5.15.12.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T161331Z&X-Amz-Expires=86400&X-Amz-Signature=ba7e037b404c38e635678e65b2708612628b3ccc55c43d1ee25d3a47f170070d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2019-12-03_5.15.12.png%22)
 
-## 應用圖標icon
+#### 應用圖標icon
 
 應用程式當中圖標及App Store圖標設計規範
 
@@ -181,13 +181,16 @@ Modal view
 **當你第一次設計時，很難創作一個好的 UI 作品。你的作品跟那些稱得上「專業」的作品，比較起來總是缺少些什麼，但卻又無從得知如何改進。這裡提供一個易懂且可以立即看到效果的方法  —— 對稱性。這個原則非常簡單，所有物件都必須符合間距、大小和粗細。如果可以的話，盡可能地去遵循這個方法。**
 
 **舉個例子，以下有三個天氣的 App 可以讓你比較。**
-​
-天氣 App (Android)     | Yahoo! 天氣 App (iOS and Android)  | Apple 天氣 App (僅 iOS)  |
-|:------------------------------:|:------------------------------:|:-------------------------------:|
-​
+
+
 ![Weather app example](http://i.imgur.com/N9cCHCV.jpg)
 ​
 > 直觀來說，最左邊的並不好看。中間的看起來還行，但最右邊的看起來最好。到底這三款 App 的差別在哪？
+
+​
+天氣 App (Android)     | Yahoo! 天氣 App (iOS and Android)  | Apple 天氣 App (僅 iOS)  |
+|:------------------------------:|:------------------------------:|:-------------------------------:|
+
 ​
 標準 | Random 天氣 App (左)  | Yahoo! 天氣 App (中)       | Apple 天氣 App (右)      |
 | --------- | -------------------- | -------------------- | -------------------- |
