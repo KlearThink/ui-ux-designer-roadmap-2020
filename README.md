@@ -1,69 +1,74 @@
-#  Note: I'll do a full rewrite of this repo. I hope to finish it towards the end of 2019 / beginning of 2020.
+# 2020 UI/UX Designer Roadmap 繁體中文版
+
+> 此項目基於[這個項目](https://github.com/togiberlin/ui-ux-designer-roadmap)的基礎上做開發，不僅僅翻譯原文，也加入更多新知識點
 
 ![UI/UX Designer Roadmap](http://i.imgur.com/clLNiOD.png)
 
-> Roadmap to becoming a UI/UX Designer in 2017
+> Roadmap to becoming a UI/UX Designer in 2020
+
+> 2020 成為 UI / UX 設計師路線圖
 
 Below, you'll find a roadmap on how to become a UI/UX designer. It lists all common tools of the trade in order to become a digital creative. It is inspired by [this roadmap on how to become a web developer](https://github.com/kamranahmedse/developer-roadmap).
 
+您也可以提出任何改進 `issue`，或者提交您的 [pull request](https://github.com/KlearThink/ui-ux-designer-roadmap/pulls)
 If you have any improvements, don't hesitate to post an [issue](https://github.com/togiberlin/designer-roadmap/issues) or make a [pull request](https://github.com/togiberlin/designer-roadmap/pulls) 🙃
 
 ## 📖 Table Of Contents
 
- * [Introduction](#-introduction)
- * [Distinguishing Between UI and UX](#distinguishing-between-ui-and-ux)
- * [User Interface Designer Roadmap](#-user-interface-designer-roadmap)
-      * [Use Symmetry for Great UI Designs](#use-symmetry-for-great-ui-designs)
- * [User Experience Researcher Roadmap](#-user-experience-researcher-roadmap)
-      * [UX Pattern Examples: Effectively Applying Nudge Theory](#ux-pattern-examples-effectively-applying-nudge-theory)
-      * [Understanding Human Decision Making: Humans Are (Ir)rational](#understanding-human-decision-making-humans-are-irrational)
-         * [Thinking Fast &amp; Slow: Dual Process Theory](#thinking-fast--slow-dual-process-theory)
-         * [Do or Don't: The Behavior Model](#do-or-dont-the-behavior-model)
-         * [Understanding the Decision Making Process: The CREATE Action Funnel](#understanding-the-decision-making-process-the-create-action-funnel)
-         * [Building Habits: The Hook Model](#building-habits-the-hook-model)
-      * [Unifying Everything Into a Cohesive UX Vision: The Customer Experience Map](#unifying-everything-into-a-cohesive-ux-vision-the-customer-experience-map)
-         * [Recommended Readings](#recommended-readings)
+ * [🚀 介紹](#-🚀-介紹)
+ * [UI 和 UX 間的差異](#-UI-和-UX-間的差異)
+ * [🎨-UI-學習路徑圖](#-🎨-UI-學習路徑圖)
+      * [利用對稱性，設計出更好的 UI 作品](#利用對稱性，設計出更好的-UI-作品)
+ * [🔮 使用者體驗學習路徑圖](#-🔮-使用者體驗學習路徑圖)
+      * [UX 模式範例：有效地應用推力理論](#UX-模式範例：有效地應用推力理論)
+      * [了解人類決策：人類是（非）理性的](#了解人類決策：人類是（非）理性的)
+         * [快慢思考：雙重過程理論](#快慢思考：雙重歷程理論)
+         * [做或不做：行為模式](#做或不做：行為模式)
+         * [了解決策過程：CREATE操作渠道](#了解決策過程：CREATE操作渠道)
+         * [養成習慣：勾癮定理](#養成習慣：勾癮定理)
+      * [將所有內容統一到UX願景:客戶體驗藍圖](#將所有內容統一到ux願景客戶體驗藍圖)
+         * [推薦閱讀清單](#recommended-readings)
  * [Wrap Up](#-wrap-up)
  * [TODO](#-todo)
  * [Contribution](#-contribution)
  * [License](#license)
 
+## 🚀 介紹
 
-## 🚀 Introduction
-Creating a successful tech startup depends on many factors. Having an aesthetic ```user interface (UI)``` and a great ```user experience (UX)``` are integral parts of entrepreneurial success. These interesting fields are quite young disciplines and require knowledge in different areas. When starting a small business, hiring lots of dedicated specialists with a limited budget is not realistic. Usually, the first iteration of a great Minimum Viable Product (MVP) is done by **hybrids**. This guide is meant to help you creating a great MVP and get at least 80% of the design/psychology right on the first try - **the lean way**.
+作為一個科技新創公司要成功需要具備許多條件，擁有美觀的```使用者介面 (UI)```與出色的```使用者體驗 (UX)``` 是建構企業成功的重要元素。這兩者仍是很新的領域，需要橫跨不同領域的知識。創辦一家小型企業時，在有限的預算下，無法建立一個具備各領域專家的團隊。一般來說，第一代的最小可行性產品並**不會**是完整的產品。這篇文章會幫助你創造出好的最小可行性產品，讓你在第一次嘗試中，用最快的方式學習設計與心理學**理論**。
 
 ![The Lean Method of Building Startups by Eric Ries](https://cdn-images-1.medium.com/max/800/1*NmN8fTliAkgy1xpt9lLn7g.png)
 
 *Referenced from [https://cdn-images-1.medium.com/max/800/1*NmN8fTliAkgy1xpt9lLn7g.png](https://cdn-images-1.medium.com/max/800/1*NmN8fTliAkgy1xpt9lLn7g.png)*
 
-## Distinguishing Between UI and UX
-Often times, people use the terms ```UI``` and ```UX``` interchangeably. Despite some shared elements, there are notable differences. Here is a simple definition:
+## UI 和 UX 間的差異
 
-- When people say __UI__, they usually mean everything related to graphic design, colors, fonts, backgrounds, buttons, stock photos, icons etc.
-- When people say __UX__, they usually mean tasks related to psychology, human decision making, user research, personas, user stories, workflows, A/B testing, statistical evaluation and so on.
+**大多時候，我們經常將使用者介面與使用者體驗搞混，雖然兩這有重合之處，但從定義上來看，兩者則是相去甚遠。**
 
-Here, you see the common characteristics which both UI and UX people are expected to bring to the table:
+- **當我們談到使用者體驗，經常會聯想到圖像設計、顏色、字體、背景、按鈕、圖片與圖標等等**
+- **當人們提到使用者體驗時，通常指的是與心理學、人類決策、用戶研究、角色與用戶故事、工作流程、A/B 測試、統計評估等等**
 
-![Intro Roadmap](http://i.imgur.com/1mddZ84.png)
+![Intro Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bc061a04-5119-4b63-938f-2a9bff7e62e7/Distinguishing_Between_UI_and_UX.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T145708Z&X-Amz-Expires=86400&X-Amz-Signature=9af1e00638400832f09fb3c357a4881c7c09e2499302f8c99d40889bc5f8d7f2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Distinguishing_Between_UI_and_UX.jpg%22)
+在設計任何東西之前，首要任務是了解商業模型。你想幫助你的客戶解決什麼痛點？為此，我建議你使用[商業模型畫布圖]((http://s3.amazonaws.com/academia.edu.documents/32253198/businessmodelgenerationpreview.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1497631663&Signature=Is7e1dMbArrSpo%2FOJnACX3dtzEk%3D&response-content-disposition=inline%3B%20filename%3DYoure_holding_a_handbook_for_visionaries.pdf))。可以點選這裡[下載](https://canvanizer.com/downloads/business_model_canvas_poster.pdf)。
 
-Before designing anything, it is fundamental to understand the underlying business model. What pain do you want to solve for your customer? For that, I recommend using the [Business Model Canvas](http://s3.amazonaws.com/academia.edu.documents/32253198/businessmodelgenerationpreview.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1497631663&Signature=Is7e1dMbArrSpo%2FOJnACX3dtzEk%3D&response-content-disposition=inline%3B%20filename%3DYoure_holding_a_handbook_for_visionaries.pdf) framework. The template can be downloaded from [here](https://canvanizer.com/downloads/business_model_canvas_poster.pdf).
+## 🎨 UI 學習路徑圖
 
-## 🎨 User Interface Designer Roadmap
-The tools of the trade for UI design are mainly [Sketch](https://www.sketchapp.com/), [Adobe XD](http://www.adobe.com/de/products/experience-design.html), [Adobe Photoshop](http://www.adobe.com/de/products/photoshop.html) and [Adobe Illustrator](http://www.adobe.com/de/products/illustrator.html). Some UI designers also code HTML and CSS at work, so I've included it too.
+在使用者設計的領域，目前主流的工具有 [Sketch](https://www.sketchapp.com/)、[Adobe XD](http://www.adobe.com/de/products/experience-design.html)、[Adobe Photoshop](http://www.adobe.com/de/products/photoshop.html) 和 [Adobe Illustrator](http://www.adobe.com/de/products/illustrator.html)，部分設計師在工作上會被要求具備 HTML 和 CSS 的能力，所以我將他們涵括在（譯者團隊備註：並不是必須的，但能理解原理對於設計功力與適合度會更上一層樓）。
 
-![UI Designer Roadmap](http://i.imgur.com/nGgB1ZF.png)
+![UI Designer Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/348f5fe9-6d5d-40d6-aec2-52f3d931e0c2/User_Interface_Designer_Roadmap.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T145807Z&X-Amz-Expires=86400&X-Amz-Signature=dc7d142c93a3a4f12632c068600f02be4ea28a1c8513d0a05d4f5c84266200ae&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22User_Interface_Designer_Roadmap.jpg%22)
 
-### Use Symmetry for Great UI Designs
-Creating great UI designs can be hard, especially when you design for the first time. You design stuff but it always seems to lack that special _something_ compared to other, more "professional" designs. But you have no idea where to look for or what to improve. There is one guiding principle, which once understood, delivers **results immediately**. This guiding principle is **symmetry**. The rule is very simple: all objects must match each other in distance, size and thickness. Use this principle, whenever you can.
+### 利用對稱性，設計出更好的 UI 作品
 
-Consider this example: You compare 3 weather apps. 
+**當你第一次設計時，很難創作一個好的 UI 作品。你的作品跟那些稱得上「專業」的作品，比較起來總是缺少些什麼，但卻又無從得知如何改進。這裡提供一個易懂且可以立即看到效果的方法  —— 對稱性。這個原則非常簡單，所有物件都必須符合間距、大小和粗細。如果可以的話，盡可能地去遵循這個方法。**
+
+**舉個例子，以下有三個天氣的 App 可以讓你比較。**
 
 Random Weather App (Android)     | Yahoo! Weather App (iOS and Android)  | Apple Weather App (iOS only)  |
 |:------------------------------:|:------------------------------:|:-------------------------------:|
 
 ![Weather app example](http://i.imgur.com/N9cCHCV.jpg)
 
-> Intuitive evaluation: Random one (left) doesn't look nice. Yahoo Weather (middle) looks pretty okay. But it is Apple Weather (right) which looks best. Something is wrong with the random one (left) and Yahoo Weather (middle) - but what exactly?
+> 直觀來說，最左邊的並不好看。中間的看起來還行，但最右邊的看起來最好。到底這三款 App 的差別在哪？
 
 Criterion | Random Weather App (Left)  | Yahoo! Weather App (Middle)       | Apple Weather App (Right)      |
 | --------- | -------------------- | -------------------- | -------------------- |
@@ -76,169 +81,211 @@ Button count | 🚫 Too many buttons, too many choices. | ✅ Very few buttons. 
 Button style | 🚫 Button sizes don't match. Some are long, some short. | ⚠️ Thickness of navigation drawer menu and plus button doesn't match with other symbols. | ✅ Only one visible button in bottom right corner. Button style and line-thickness of symbol does match with overall UI. |
 Layout | 🚫 Distance between objects varies. Not aligned to an evenly spaced grid. | ⚠️ Not 100% evenly spaced. E.g. Flickr icon too close to the rim compared to the plus icon. Bottom-right icon doesn't have an equivalent on bottom-left corner. | ✅ Evenly spaced. |
 
-## 🔮 User Experience Researcher Roadmap
-The main focus of ```UX``` is to get the __psychology__ right. According to [Business Insider](http://www.businessinsider.de/average-number-of-apps-vs-time-spent-2016-5?r=US&IR=T), the average U.S. citizen spends around 40 minutes daily on a smartphone. On average, 27 apps (!) are competing for these 40 minutes. In a world full of distractions, attention has become the most precious resource. **Mental resources** are limited and highly contested. At the same time, app stores are [incredibly crowded](http://www.businessinsider.com/top-app-store-marketing-tips-2-2014-2?IR=T), and it keeps getting worse. [Research](http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/) found out, that on average 80% of users delete apps within the first 3 days. With these abnormally high __churn rates__, delivering the standard "good usability" line is simply not enough. For the competitive edge, apps need to be addictive. This can be achieved by psychology and state-of-the-art **UX patterns**. E.g. according to the [Daily Mail](http://www.dailymail.co.uk/sciencetech/article-2785744/Facebook-Instagram-favourite-social-network-teens.html), Instagram overtook Facebook in popularity - because the founders of Instagram got the psychology right.
+## 🔮 使用者體驗學習路徑圖
 
-> "In 2006, two students in [BJ Fogg’s Stanford class on "Persuasive Technology"](https://bjfogg.com/) collaborated on a project called Send the Sunshine. Their insight was that one day mobile phones (this was the pre-smartphone era) would be used to send emotions: if your friend was in a place where the weather wasn’t good and you were standing in sunshine, your phone could prompt you to take a picture and send it to them to cheer them up. One of the two students, Mike Krieger, went on to co-found Instagram, where over 400m users now share sunrises, sunsets and selfies."<br><br>Referenced from [https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive](https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive)
+大部分對於```使用者體驗```的關注都會放在 __心理學__ 的運用。根據  [Business Insider](http://www.businessinsider.de/average-number-of-apps-vs-time-spent-2016-5?r=US&IR=T) 的研究，美國人一天約花 40 分鐘在智慧型手機上，而平均來說 27 個 App 要競爭這 40 分鐘的時間。在這個眼花撩亂的世界裡，**專注是非常珍貴的資源**。人們的精力是有限而且高度競爭的。同時，App 商店內有[非常多的產品](http://www.businessinsider.com/top-app-store-marketing-tips-2-2014-2?IR=T)，而且只會愈來愈多。[研究指出](http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/)，平均超過八成的使用者會在使用 App 的前三天刪除它。 在高流失率的情況下，僅僅強調產品的易用性是遠遠不夠的。在競爭激烈的市場中，App 需要讓人上癮，要達成這個目標，必須透過心理學以及使用者體驗的設計。例如，根據 [Daily Mail](http://www.dailymail.co.uk/sciencetech/article-2785744/Facebook-Instagram-favourite-social-network-teens.html)，Instagram 比 Facebook 受歡迎，因為 Instagram 創辦人採用了正確的心理學技巧。
 
-Instagram achieved this success by reducing the clutter and feature bloat of Facebook. Users always follow the path of least resistance. And by making Instagram more simple, direct and faster, the path of least resistance becomes the default path. Here one example:
+> 2006 年，BJ Fogg 的史丹佛大學「說服力技術[BJ Fogg’s Stanford class on "Persuasive Technology"](https://bjfogg.com/)」課程的兩名學生合作開展了一個名為「發送陽光」的項目。他們認為，有一天，手機（這是智能手機時代之前的時代）將被用於傳遞情感：想像一下，你的朋友在一個天氣不好的地方，而你正站在陽光下，你的手機會提示你拍照並將其發送給你的朋友，並透過照片鼓舞他。後來，其中一位學生，麥克·克里格（Mike Krieger）共同創立 Instagram，如今已有 4 億用戶共享日出，日落和自拍照。
 
-> It was a regular Monday evening in Chicago. David H. was bored. To relieve his boredom, David H. opened his Instagram to check the news feed. He saw his friend Jason F. surfing in Hawaii. After commenting, he continued to check the news feed. Without noticing, he spent 30 minutes on Instagram.
+參考來源：[https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive](https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive)
 
-Instagram has a sneaky UX pattern called **Autoplay**. If you do nothing, Instagram keeps loading new content. The path of least resistance - doing nothing - leads to using Instagram more, not less. This UX pattern is combined with the **infinite scroll** pattern. Whenever the user has had enough of watching a picture, he is just one downward swipe away from the next terribly interesting image. With time, using Instagram becomes a subconscious, deeply embedded **habit**. And building habits is what you ultimately want, because they are so hard to unlearn.
+相較於 Facebook 來說，Instagram 的成功在於減少雜亂的資訊與不必要的功能。使用者永遠以阻力最小的路徑為首要考量。透過讓 Instagram 更簡單、直覺與更快的操作，這些較少阻力的方式將會變成預設的路徑，這裡舉個例子
 
-With these examples, it should be clear that UX is a critical part of app success and user retention. Without further ado, here now the UX roadmap:
+> 那是在芝加哥的某個星期一晚上。 David H.很無聊。為了緩解他的無聊，David H.打開了他的 Instagram 來查看新聞摘要。他看到他的朋友 Jason F. 在夏威夷衝浪。發表評論後，他繼續查看新聞摘要。不知不覺中，他花了30分鐘在 Instagram 上。
 
-![UX Researcher Roadmap](http://i.imgur.com/duKBzNL.png)
+Instagram 有一個自動播放的 UX 模式。如果你什麼也不做，Instagram 會**繼續加載新內容**。阻力最小的途徑 「 無所作為 」 讓使用者更常使用 Instagram。此 UX 模式與**無限滾動模式**結合在一起。只要用戶有足夠的時間觀看圖片，就可以從下一張非常有趣的圖像向下滑動一次。隨著時間的流逝，使用 Instagram 已成為一種潛意識，深層的習慣。「讓使用者習慣」對我們來說是重要的，因為**習慣**會是最難養成的事情
 
-To augment above mentioned UX buzzwords, scroll down to the next chapter to see practical, real-life examples on successful UX.
+透過這些例子，應該可以更加清楚，使用者體驗 (UX) 是 App 成功和留住用戶的關鍵。事不宜遲，以下是UX路線圖：
 
-## UX Pattern Examples: Effectively Applying Nudge Theory
-Modern apps make heavy usage of **nudges**. A nudge is a soft intervention for gently pushing a user into a specific action or behavior - without any coercion or force. Nudge theory has been applied with success for influencing e.g. government policy. For example, the British government employs [a dedicated nudge unit](http://www.behaviouralinsights.co.uk/) to gently push unsuspecting citizens into specific decisions. Nudges are also used in web and mobile apps. Nudges shouldn't trick users into behaviors which they do not want. Ideally, nudges are used to help users achieve something which they already want to do. For example, [FitBit](https://www.fitbit.com/de/home) helps users to achieve their fitness goals. Another example is [Habitica](https://habitica.com/static/front), which helps you to learn positive habits and unlearn negative habits in form of a gamified role play game. **Digital paternalism** is becoming more popular and can transform users into the best versions of themselves. Without further ado, below are some positive as well as sneaky examples of nudges. 
+![UX Researcher Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1b5e803b-253a-4eb1-b200-8c40fc86ba7a/User_Experience_Researcher_Roadmap.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150112Z&X-Amz-Expires=86400&X-Amz-Signature=475f3db2c5e0411a74b55c38be54533acd1440194eef6113244b494ac42f0a28&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22User_Experience_Researcher_Roadmap.jpg%22)
 
-> Everest.co is a small web and mobile app agency located in San Francisco. They've decided to create a blog to share their knowledge in weekly blogposts. They blog about programming, technology, marketing and great design. Many readers do bookmark, share and comment on the page via DisQus.
+若想更了解圖內的專業用詞，請往下滑至下一章節，我們將介紹更多成功的 UX 實例。
 
-This UX pattern is taking advantage of the fact that many people are searching for solutions to e.g. programming problems on the internet. And when Everest.co provides the solution with strong authority and expertise on the subject, it is logical to just hire the agency instead of learning and doing it yourself. Core idea of having a blog with educational material is to **outteach instead of outspend** your competition. Even if the reader won't purchase your services or products now, he might recommend it to someone or come back later when he needs it. With consistent top-notch quality content, companies can build a loyal audience. The web 2.0 gives companies the power to pursue a low-cost marketing strategy.
+## UX 模式範例：有效地應用推力理論
 
-> Annie installed the new fitness app on her phone and has been working out for a few weeks. It has worked well, because the main dashboard shows a calendar with her active days marked in orange. She is encouraged to keep a streak. If she misses a day, the streak is lost. Annie has worked out for 2 weeks straight and has never missed a day.
+現今的 App 大量地使用**推力理論**。推力是一種輕微地干預，意在「不透過強迫地方式，將使用者輕輕地推向特定的動作或行為」。推力理論已經成功地應用在政府的政策上。例如：英國政府聘用了一個具備[「推力理論」的團隊](http://www.behaviouralinsights.co.uk/)，將毫無戒心地公民輕輕推向決策方向。推力也用於網路和 App。推力不應讓使用者進行使用者不希望的行為。理想的情況下，推力可以幫助使用者實現他們已經想做的事情例如，[FitBit](https://www.fitbit.com/de/home) 可幫助用戶實現其健身目標。另一個例子是 [Habitica](https://habitica.com/static/front)，它可以以遊戲化角色扮演遊戲的形式幫助您養成積極學習的習慣，並告別消極的習慣。數位化正變得越來越流行，並且透過這些方式成就更好的自己。事不宜遲，以下是一些潛移默化的例子。
 
-This nudge is making use of our human desire for **order**. Humans perceive **symmetry** as beautiful, and subconsciously crave to keep it that way.
+### 佔據潛意識
 
-> Jason had a long day at university, furthermore he had a football match in the evening. After the match, he wearily fell into bed. All of a sudden, his phone made some noise. He looked at the screen and saw that Facebook messenger had a message ready for him. Could it be that Jessica, his secret crush, has answered to his date proposal? Jason jumped up and opened Facebook Messenger. Nope, it turned out that his buddies were having some beers and invited him.
+> [Everest.co](http://everest.co/) 是位於舊金山的小型網站和 App 代理商。他們決定創建一個部落格，並在每週的文章中分享他們的知識。他們在文章中介紹程式，技術，營銷和出色的設計。許多讀者透過 DisQus 在頁面上添加書籤，共享和評論。
 
-This nudge is making use of human **curiosity**. It is important, to always stay unpredictable in order to increase excitement. As soon as things become predictable, it becomes boring. By keeping the **reward variable**, more users will be prompted to check regularly. This is very easily done by feeding user generated content. Machine learning algorithms (e.g. association rules) can be used to deliver content which matches the user's field of interests.
+這種 UX 模式利用了以下事實：許多人正在尋找解決方案，例如互聯網上的編程問題。而且，當 Everest.co 為解決方案提供強大的權威和專業知識時，順理成章的事情是只僱用代理商，而不是自己學習和自己做。擁有包含教育材料的博客的核心思想是提高教學水平，而不是**超出競爭範圍**。即使讀者現在不會購買您的服務或產品，他也可能會將其推薦給某人或稍後在需要時再回來。憑藉始終如一的一流質量內容，公司可以建立忠實的受眾。 Web 2.0 使公司有能力追求低成本的營銷策略。
 
-> Roseanne decided to lose some weight and get fit. She installed the Nike+ app. When the app started for the first time, it asked Roseanne to connect the app with her Facebook account. She agreed. She was eager and curious to try the app.
+### 秩序
 
-**Defaulting** can happen by in-your-face prompts and notifications ("Do you want to allow Nike+ to connect to your Facebook account? Yes/No"). To make it more sneaky, the yes-checkbox should be ticked by default and be substantially larger than the no-checkbox. Make sure to avoid **choice overload** by presenting not more than 3-4 options. Whatever the user chooses, it will be in your favor. The art of effectively presenting choices is called **choice architecture**. Make sure that the desired action is the path of least resistance.
+> 安妮在手機上下載了新的健身 App，並且已經鍛煉了幾個星期。之所以可以持續鍛鍊，是因為主儀表板顯示了一個日曆，其活動日期用橙色標記。鼓勵她保持連勝。如果她錯過了一天，那麼連勝都將丟失。為此，安妮已經連續鍛煉了兩個星期，從未錯過任何一天。
 
-> After successful Nike+ and Facebook, Roseanne started a run. The run was posted on Roseanne's Facebook wall by default. Her family, friends and coworkers saw that post and were staggered. After all, Roseanne was heavily obese.
+這種推力正在利用我們人類對 秩序 的渴望。我們將對稱視為美麗，並在潛意識中渴望保持對稱。
 
-This nudge makes use of **social accountability**. When we announce our goals to people, we are more likely to stick to this goal, as we don't want to lose respect from our peers.
+### 好奇心
 
-> As soon as Roseanne was finished with her run, she saw that Peter and Lois were also doing runs on Nike+. She found out in the rankings screen, that Peter's average activity was above hers by 30%. But Peter is even more obese than Roseanne! And if he can do it, why can't Roseanne?
+> 傑森在大學裡度過了漫長的一天，此外他晚上還參加了一場足球比賽。比賽結束後，他疲倦地躺在床上。突然，他的電話發出了一些聲音。他看著屏幕，發現 Facebook Messenger 已準備好一條消息。難道是他暗戀的傑西卡回答了他的約會提議？傑森跳起來，打開了Facebook Messenger。不，事實證明，他的好友們正在喝啤酒，並邀請了他。
 
-This nudge makes use of **peer comparison**. People are usually happy. Until they start to compare...then they become unhappy.
+這個推力是在利用人類的 **好奇心**。重要的是，始終保持不可預測的狀態以增加興奮感。一旦事情變得可預測，就變得無聊。透過維持這種獎勵，讓更多用戶定期檢查 App。透過**推播用戶**產生的內容非常容易做到這一點。機器學習算法（例如，關聯規則）可以用於傳遞與用戶的興趣領域相匹配的內容。
 
-> Jeremy opened the app store and was looking for a diet tracking app. He saw 5 listed apps. One of them had over 50k ratings and over 350k downloads. If 350,000 people have downloaded the app, it can't be that bad. Jeremy checked the user reviews. All of them were either 4 or 5 stars. "Nice, the app can't be that bad" he thought. In the app description, he could see that his big idol Kanye is also using this app. "Kanye is using this app, too? Damn, I need this app, ASAP!"
+### 默認模式
 
-This nudge is making use of **social proof**. Social proof takes advantage of the human herd instinct. We perceive things to be trustworthy, if other people do it too. If advertised with celebrities, it can become even more powerful.
+> 羅珊娜決定減肥並保持健康。她安裝了 Nike + 應用程序。該 App 首次啟動時，它要求羅珊娜將 App 與她的 Facebook 帳戶關聯。她同意了。她渴望並好奇嘗試該 App。
 
-> Howard has the habit to read newspaper magazines in the morning with a coffee. However, his old subscription of the "Daily Mail" has just ended recently. He was interested in picking up the "Economist". ![Economist Phantom Pricing](http://futurestartup.com/wp-content/uploads/2012/05/untitled-12.jpg)<br>
-He saw the pricing table: "a digital subscription costs me 59$. But the print subscription costs me 125$. Okay...wait a minute! I get the print edition for 125$ AND the digital edition for free? That's a bargain, naturally I'll pick the third option."
-<br><br>_Referenced from http://futurestartup.com/wp-content/uploads/2012/05/untitled-12.jpg_
+**默認** 可以通過臉部提示和通知來實現（「是否要允許 Nike + 連接到您的 Facebook 帳戶？是/否」）。為了使它更容易被啟用，默認情況下，「是」會比「否」的按鈕大得多。確保不超過 3-4 個選項，以避免**選擇過多**。無論用戶選擇什麼，都將對您有利。有效呈現選擇的技巧稱為**選擇體系結構**。確保所需的操作是阻力最小的路徑。
 
-This sneaky pricing pattern is called **Phantom Pricing**. Why? Because the middle one is the phantom. It is just a dummy, a fake, a decoy - to make the third option more attractive.
+### 社會責任感
 
-> Back in 2010, one of the most outstanding features of the new iPhone 4 was FaceTime. FaceTime allowed you to make videocalls and stay in contact with loved ones. Despite disappointed press coverage - after all, Skype had been around for 7 years - people gathered in front of Apple stores in masses to snatch the iPhone 4.
+> 在成功獲得 Nike + 和 Facebook 之後，羅珊娜開始跑步。默認情況下，該 App 發佈羅珊娜的運動紀錄 Facebook 牆上。她的家人，朋友和同事看到了那個貼文，並感到十分吃驚。畢竟，羅珊娜非常肥胖。
 
-This UX pattern is making use of **emotional branding** by building strong **mental associations**. Human brains store information in form of a network. If we want to recall information of a certain node, specific paths are activated. With **association marketing**, you can enrich e.g. the "iPhone 4" node with certain characteristics and emotions. Apple achieved this with a brilliant, highly [emotional ad on FaceTime](https://www.youtube.com/watch?v=cKoLp_lGo14). In this clip, you can see e.g. a deployed soldier seeing his newborn baby via FaceTime. Now whenever you think of iPhone 4 or FaceTime - whether you want it or not - you have to think about that happy soldier seeing his newborn baby via FaceTime. Whenever you recall the "iPhone 4" or "FaceTime" node in your brain - you associate it with positive feelings. That's state-of-the-art marketing. Emotions are strong, because they have the power to circumvent rational thinking. For example, all objections about the exorbitant price of Apple products are quickly forgotten when there is a strong, positive emotion...you simply want that new phone.
+這個推力利用了 **社會責任感**。當我們向人們宣布我們的目標時，我們更有可能堅持這一目標，因為我們不想失去同齡人的尊重。
 
-> Just recently, Jake registered on Uber as a driver. In the taxi industry, the overall demand for cabs and therefore his income fluctuate on a daily basis. On some days, he barely has customers. He hates those days. He handles this problem by setting a fixed amount as his daily goal. If he doesn't manage to reach it, he simply works longer hours until he reaches that daily goal. On some days, he spends 18 hours working nonstop to compensate for the "losses" due to lack of customers.
+### 競爭心理
 
-This UX pattern is called **loss aversion**. Humans hate to lose something, which they perceive as theirs. Studies have found out, that humans perceive things which they own to be of higher value than things, which they don't own. As a consequence, people are ready for risky behavior to *defend what's rightfully theirs*. Marketers like Groupon use this technique by sending perishable coupons with high discounts on e.g. smartphones. Combined with great urgency, people feel the need to secure *their* discounts. Other good examples are competitive online games like Poker, Call of Duty, League of Legends etc. with **in-app stores/purchases/DLCs**. In many MMORPGs, it is possible to gain a competitive edge by purchaseable items such as special swords, shields, health potions and so on. Some players do crazy stuff to defend their *virtual leadership and number 1 position*.
+> 羅珊娜跑步完成後，她立即看到彼得和路易斯也在 Nike + 上進行跑步。她在排名列表中發現，彼得的平均活動量比她高 30％。但是，彼得比羅珊娜還要肥胖！如果他能做到，為什麼羅珊娜不能？
 
-> Jim was looking for a Google Nexus phone on his Craigslist app. He found a nice one for 500$. He thought, that this price tag was a bit too much. His plan is now to contact that guy and ask for 450$ instead.
+此推力利用 競爭心理。人們通常很高興。直到他們開始比較...然後他們才變得不高興。
 
-This UX pattern is called **anchoring**. If people have little clue of market prices, give them a number to influence the outcome in your favor. Subconsciously, they will orient themselves on your mentioned price.
+### 從眾效應
 
-***
+> 傑里米開啟了 App Store ，正在尋找飲食追蹤的 App。他看到了 5 個列出的 App。其中一個擁有超過 5 萬的評分和超過 35 萬的下載量。如果有 35 萬人下載了該 App，那可能還不錯。 傑里米檢查了用戶評論。他們都是 4 星或 5 星。他想：「很好，該 App 不會那麼糟糕。」在 App 說明中，他可以看到他的大偶像 Kanye 也在使用此 App。 “「 Kanye 也正在使用此 App ？該死，我需要盡快使用此App！」
 
-One **warning**: despite tough app store competition, use UX patterns in moderation. Don't [overuse UX patterns](https://m.signalvnoise.com/exponential-growth-devours-and-corrupts-c5562fbf131). If your app is loaded with too many [dark patterns](https://darkpatterns.org/types-of-dark-pattern), it will become obvious and users will notice. You app becomes just another soulless, extractive slot-machine. UX patterns should be used to support user motivation, not user extraction. Every legitimate app should focus first and foremost on the core value proposition: what problem are you solving for the user?
+這種推力正在利用 **從眾效應**。從眾利用了社群的本能。如果其他人也這樣做，我們認為事情是值得信賴的。如果與名人一起做廣告，它會變得更加強大。
 
-## Understanding Human Decision Making: Humans Are (Ir)rational
-Above mentioned UX patterns show, that the *homo oeconomicus* doesn't always make decisions based on intellect and reason. Emotions, biases, associations, "gut feeling" and the unreasonable do play a huge role in decision making. Psychologists have classified human thinking modes into a **slow thinking mode** and a **fast thinking mode**, also known as Dual Process Theory.
+### 價格錨點
 
-### Thinking Fast & Slow: Dual Process Theory
-- The **slow thinking mode** is applied when encountering unusual situations, which require intensive thought. Example: deciding between two video editing software, which both do exactly the same and cost the same. You are probably trying come to a decision based on popularity, UI aesthetics, YouTube app reviews, testimonials, blog entries, friends opinion etc. Once you gathered all necessary information, you make the decision to buy.
+> 霍華德習慣於早上喝咖啡報紙雜誌。但是，他對“每日郵件”的舊訂閱最近才結束。他對選拔「經濟學家」感興趣。
 
-- The **fast thinking mode** is applied when facing familiar situations, which you already encountered in the past. The brain stores common routines for familiar situations and tries to *automate* the decision making in order to save mental resources. Example: you get another annoying newsletter from a forum where you registered. Without opening or reading it, you immediately delete the email.
+> Howard has the habit to read newspaper magazines in the morning with a coffee. However, his old subscription of the "Daily Mail" has just ended recently. He was interested in picking up the "Economist". ![Economist Phantom Pricing](http://futurestartup.com/wp-content/uploads/2012/05/untitled-12.jpg)
 
-The figure below shows the Spectrum of Thinking Interventions by Stephen Wendel.
+他看到了價格表：「數位訂閱的價格為 59 美元，但是印刷版的定價為 125 美元。好吧...等等，我得到印刷版的價格為 125 美元，數位版的價格為免費嗎？ 自然會選擇第三個選項。」
 
-![Spectrum of Thinking Interventions](http://i.imgur.com/CC11AFd.png)
+參考來源：[http://futurestartup.com/wp-content/uploads/2012/05/untitled-12.jpg](http://futurestartup.com/wp-content/uploads/2012/05/untitled-12.jpg)
 
-By repeating actions, e.g. ```heuristics``` move further to the left and become ```habits```.
-> Example: I consciously evaluate the costs and benefits of subscribing to Netflix, Amazon Prime, Apple iTunes Video or Google Play Video. Prices are similar. However, the Netflix offer includes the highest number of available movies. Nice. After long evaluation, I make the decision subscribe to Netflix. Many friends did it too, and didn't regret it. After subscribing to Netflix, I didn't watch any movie for 4 weeks straight. I started to feel a bit guilty: "I should use it, otherwise it's wasted money". I watched some movies, but didn't feel the urge to come back to Netflix on a regular basis. One evening, I started watching Breaking Bad. The first episode wasn't that bad. 3 days later, I decided to watch the second episode. After the 4th or 5th episode, things started to get fancy: that boring high-school professor becomes a drug dealer? I became attached to this series and started to watch it every evening. Now, I'm watching Breaking Bad every evening for 2 weeks straight. I simply had to know, how this story ends.
+這種定價模式稱為 **價格錨點**。為什麼？因為中間是有名無實的概念。它只是一個假人，假貨，誘餌-使第三種選擇更具吸引力。
 
-Video-on-demand providers use series-addiction to their advantage. Why? Humans are social beings. When we hear well narrated stories, we automatically [get attached to the series](https://www.buzzfeed.com/rachelhorner/the-27-stages-of-getting-addicted-to-a-television-show). I call this UX pattern the **Fictional Character Empathy** pattern. We develop affection and sympathy for fictional characters. And because we want to know what will happen to our favorite characters, we have to watch it until the bitter end. Netflix is aware of this dark UX pattern and exploits it to the max - they keep feeding consumers with countless episodes, seasons and series. Netflix just revealed, that they spent [5 BILLION US$](http://www.cinemablend.com/television/Insane-Amount-Money-Netflix-Spend-Content-2016-112117.html) on creating content. That's roughly 80% of their revenues. It apparently pays off: as of 2017, Netflix has nearly [100 million](http://money.cnn.com/2017/04/17/technology/netflix-subscribers/index.html) paying subscribers.
+### 情感品牌
 
-Coming back to our Spectrum of Thinking Interventions graphic: not only can you move from right to left, but also left to right.
-> Example: I want to get a haircut. I open Google Maps and start a search. There is a barber nearby. After a short walk, I want to enter the barber shop. I open the door. I habitually pull - it doesn't open. When this happens, my habit is to reverse my action and push instead. Doesn't open, too. Now, I intuively check for any signs - is there any open/close shield? No. Is there anyone inside? No. Weird. I open the phone and check the opening hours and alternatives. I evaluate the alternatives in terms of prices, location, distance, and reputation. After a long, conscious cost-benefit evaluation, I make the decision to enter my car and drive 3 miles to the next barber shop.
+> 早在 2010 年，新 iPhone 4 的最傑出功能之一就是 FaceTime 。 FaceTime 允許您進行視頻通話並與親人保持聯繫。儘管媒體報導令人失望 - 畢竟 Skype 成立已有 7 年了 - 人們仍然聚集在 Apple 商店前搶奪 iPhone 4。
 
-### Do or Don't: The Behavior Model
+這種 **UX 模式通過建立強大的心理連結來利用 `情感品牌`**。人腦以網絡形式儲存訊息。如果我們想調用某個節點的信息，則會刺激**特定路徑**。借助**關聯營銷**，你可以活化例如具有某些特徵和情感的「 iPhone 4」節點。蘋果通過在 FaceTime 上播放了精彩而又充滿情感的廣告來實現了這一目標。在此影片中，你可以看到例如一名前線的[士兵通過 FaceTime](https://www.youtube.com/watch?v=cKoLp_lGo14) 看到他的新生兒。現在，無論您是否想要iPhone 4 或 FaceTime，無論您是否想要它，都必須考慮那個快樂的士兵通過 FaceTime 看到新生兒的情況。每當您想起大腦中的「iPhone 4」或「 FaceTime」節點時，便會將其與積極的情感聯繫起來。這是最先進的營銷方式。情緒很強烈，因為它們有能力規避理性思考。例如，當人們產生強烈而積極的情緒時，所有關於蘋果產品價格過高的異議都會很快被遺忘……你只是想要那部新手機。
+
+### 損失厭惡
+
+> 就在最近，傑克在 Uber 註冊成為司機。在出租車行業，出租車的總體需求及其收入每天都在波動。有時候，他幾乎沒有客戶。他討厭那些日子。他通過將固定數量作為自己的日常目標來解決此問題。如果他無法達到目標，他只會工作更長的時間，直到達到每日目標。在某些日子裡，他花了 18 個小時不間斷地工作，以彌補因缺乏客戶而造成的「損失」。
+
+這種 UX 模式稱為**損失厭惡**。人類討厭失去自己認為屬於自己的東西。研究發現，人類認為自己擁有的東西比自己不擁有的東西具有更高的價值。結果，人們已經準備好冒險行為來*捍衛自己應有的權利*。像 Groupon 這樣的營銷人員通過發送時效性短的優惠券，例如在智能手機。加之緊迫性，人們感到需要*確保*折扣。還有其他很好的例子是，具有 **App 內商店 / 購買 /  DLC**的競爭性在線遊戲，如撲克，使命召喚，英雄聯盟等。在許多 MMORPG 中，可以通過購買特殊劍，盾，保健藥水等物品來獲得競爭優勢。一些玩家瘋狂地捍衛自己的*虛擬領導力和排名第一的位置*。
+
+### 錨定效應
+
+> 吉姆的 Craigslist 應用程序上正在尋找 Google Nexus 手機。他找到了一個不錯的500美元。他認為，這個價格標籤太高了。現在，他的計劃是與該人聯繫並索要450美元。
+
+這種 UX 模式稱為 `錨定效應`。如果人們對市場價格了解不多，請給他們一些數字以影響結果，使結果對您有利。在潛意識裡，他們會將自己定位在您提到的價格上。
+
+**警告**：儘管 App 競爭激烈，但應謹慎使用 UX 模式。不要過度使用 UX 模式。如果您的 App 加載了過多的深色圖案，它將變得顯而易見，並且用戶會注意到。您的應用程序變成了另一台無精打采的老虎機。 UX 模式應用於支持用戶動機，而不是用戶提取。每個合法的應用程序都應該首先關注核心價值主張：您要為用戶解決什麼問題？
+
+（翻譯團隊：如果過度設計使用了 UX ，那將會是一場災難）
+
+## 了解人類決策：人類是（非）理性的
+
+上面提到的用戶體驗模式顯示，[經濟人](https://zh.wikipedia.org/wiki/%E7%BB%8F%E6%B5%8E%E4%BA%BA)並不總是基於理智和理性做出決策。情緒，偏見，聯想，「直覺」和不合理的行為在決策中起著巨大的作用。心理學家將人類的思維模式分為**慢速思維模式**和**快速思維模式**，也稱為**雙重歷程理論**。
+
+1. 快慢思考：雙重歷程理論
+2. 做或不做：行為模式
+3. 了解決策過程：行動漏斗
+4. 養成習慣：鉤癮效應
+
+### 快慢思考：雙重歷程理論
+
+- 當遇到需要**深入思考**的異常情況時，將啟用慢速思維模式。範例：在兩種影片編輯軟體之間做出決定，這兩種軟體的功能和成本完全相同。你可能正在嘗試根據受歡迎程度，UI 美學，YouTube 評論、推薦、部落格和朋友的意見等做出決定。一旦收集了所有必要的信息，就可以決定購買。
+- **快速思考模式**適用於您過去遇到過的熟悉情況。大腦儲存常見情況的常規程序，並嘗試自動進行決策以節省智力資源。例如：你從你註冊的論壇上收到另一個煩人的訊息。你無需打開或閱讀它，即可立即刪除該電子郵件。
+
+下圖顯示了斯蒂芬·溫德爾的思維干預範圍。
+
+![Spectrum of Thinking Interventions](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/febbcb74-f155-4367-94a3-bd1627cf42ed/Thinking_Fast__Slow_Dual_Process_Theory.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150256Z&X-Amz-Expires=86400&X-Amz-Signature=7004847e1440a8aeeb45a47f96490fe2f302b3606cd905ed80a2ab1308505d8a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Thinking_Fast__Slow_Dual_Process_Theory.jpg%22)
+
+透過重複動作，例如「啟發式方法」向左移動並成為「習慣」。
+
+> 範例：我認真地評估了訂閱 Netflix，Amazon Prime，Apple iTunes Video 或 Google Play Video 的成本和收益。價格差不多。但是，Netflix 提供的電影數量最多。經過長期評估，我決定訂閱 Netflix。許多朋友也這樣做了，並不後悔。訂閱了 Netflix 之後，我已經連續四個星期沒看電影了。我開始感到內疚：「我應該使用它，否則會浪費金錢」。我看了一些電影，但沒有定期回到 Netflix 的衝動。一天晚上，我開始看《絕命毒師》。第一集還不錯。 3天后，我決定觀看第二集。在第四集或第五集之後，事情開始變得奇妙：那個無聊的高中教授變成了毒販？我迷上了這個系列，每天晚上都開始看。現在，我每天連續兩個星期在看Breaking Bad。我只知道這個故事是如何結束的。
+
+影片點播提供者利用連續成癮的優勢。為什麼？人是社會人。當我們聽到敘述良好的故事時，我們會[自動加入該系列](https://www.buzzfeed.com/rachelhorner/the-27-stages-of-getting-addicted-to-a-television-show)。我將此 UX 模式稱為 **「虛構人物同理心」** 模式。我們對虛構人物產生了深情和同情。而且因為我們想知道我們最喜歡的角色會發生什麼，所以我們必須看著它直到痛苦的結局。 Netflix 意識到了這種黑暗的用戶體驗模式，並最大限度地利用了它 - 他們不斷為消費者提供無數的劇集，季節和系列。 Netflix 剛剛透露，他們花了 [50 億](http://www.cinemablend.com/television/Insane-Amount-Money-Netflix-Spend-Content-2016-112117.html)美元用於創作內容。這大約是他們收入的80％。它顯然是有回報的：截至2017年，Netflix 有近[1 億](http://money.cnn.com/2017/04/17/technology/netflix-subscribers/index.html)付費用戶付費用戶。
+
+回到我們的思維干預頻譜圖：您不僅可以從右向左移動，還可以從左向右移動。
+
+> 範例：我想理髮。我打開 Google 地圖並開始搜索。附近有理髮師。經過一小會兒，我想進入理髮店。我開門。我習慣性地拉 - 它沒有打開。發生這種情況時，我的習慣是扭轉自己的行動，而往後推。也不會打開。現在，我直觀地檢查是否有任何跡象 - 是否有打開 / 關閉的防護罩？不，裡面有人嗎？不，很奇怪，我打開電話，檢查營業時間和其他方法。我根據價格，位置，距離和聲譽評估替代方案。經過長期的，有意識的成本效益評估後，我決定進入我的汽車，並開車 3 英里到達下一家理髮店。
+
+### 做或不做：行為模式
+
 ![BJ Fogg's Behavior Model](http://www.behaviormodel.org/index_files/bj-fogg-behavior-model-grapic.jpg)
-<br>_Referenced from: http://www.behaviormodel.org/_
 
-If you want to understand, when a user will or will not do a specific action, you can use BJ Fogg's Behavior Model. It is simple, quick and intuitive. The ```B=MAT``` formula shows, that 3 factors must be present until a behavior occurs: **Motivation**, **Ability** and **Trigger**.
+參考資料：http://www.behaviormodel.org/
 
-> Behavior = Motivation * Ability * Trigger
+如果您想了解，當用戶將執行或不執行特定操作時，可以使用 BJ Fogg 的行為模型。它簡單，快速和直觀。 ```B = MAT```公式顯示，在行為發生之前必須存在3個因素：**動機**，**能力**和**觸發力**。
 
-- **Core motivators**: pleasure/pain, hope/fear, social acceptance/rejection
-- **Ability factors**: time, money, physical effort, brain cycles, social deviance, non-routine
-- **Triggers**: facilitator, spark, signal. A spark is a trigger that motivates behavior. A facilitator makes behavior easier. And a signal indicates or reminds.
+> 行為 = 動機 * 能力 * 觸發
 
-One real-life example: Apple Watch purchase
-- Users **Motivation**: I want to run a marathon for the first time in my life. The tracking and analytics capability of the Apple Watch gives me **hope**, to finally achieve this goal.
-- Users **Ability**: I've got a well paying job, which allows me to afford an Apple Watch. **Money** is no constraint. This afternoon, I have plenty of **time** to go to the Apple Store. My friends use smart watches as fitness trackers, so in my social circle it's well accepted. It is no **social deviance** to have a smartwatch.
-- Existent **Triggers**: A few weeks ago, I saw the Apple Watch advertisement (**spark**). I've got a friend, who's also a runner and highly enthusiastic about the tracking/analytics feature (**facilitator**). This morning, I saw a runner in the park with an Apple Watch (**signal**).
-- Resulting **Behavior**: I go to the Apple Store. After verifying again it's features and overall user experience, I make the decision to **buy** the Apple Watch sports model. 
+- **核心動機**：愉悅 / 痛苦、希望 / 恐懼、社會認可 / 拒絕
+- **能力因素**：時間、金錢、體力勞動、腦循環、社交偏差、非常規
+- **觸發器**：誘導者、誘因、信號。誘因是刺激行為的觸發器。促進者使行為更容易。並且信號指示或提醒。
 
-### Understanding the Decision Making Process: The CREATE Action Funnel
-![CREATE action funnel](https://www.nirandfar.com/wp-content/uploads/2014/08/Screenshot-2014-08-23-11.51.05.png)
+一個真實的例子：購買 Apple Watch
 
-*Referenced from [https://www.nirandfar.com/wp-content/uploads/2014/08/Screenshot-2014-08-23-11.51.05.png](https://www.nirandfar.com/wp-content/uploads/2014/08/Screenshot-2014-08-23-11.51.05.png)*
+- **用戶動力**：我想一生中第一次參加馬拉松比賽。 Apple Watch 的追蹤和分析功能給了我最終實現這一目標的希望。
+- **用戶能力**：我有一份高薪的工作，這使我能夠買得起 Apple Watch。**金錢**沒有約束。今天下午，我有很多**時間**去蘋果商店。我的朋友們將智能手錶用作健身追蹤器，因此在我的社交圈中，它已廣為**接受**。擁有智能手錶並沒有社會偏見。
+- **現有觸發因素**：幾週前，我看到了Apple Watch 廣告（誘因）。我有一個朋友，他​​也是一位跑步者，對追蹤 / 分析功能（**誘導者**）非常熱情。今天早上，我在公園裡看到一個跑步者帶著 Apple Watch（信號）。
+- **出現的行為**：我去了 Apple Store。再次驗證其功能和整體用戶體驗後，我決定**購買** Apple Watch運動版。
 
-The CREATE Action Funnel by Stephen Wendel is useful to explain actions and behavior in a slightly finer granularity than e.g. BJ Fogg's Behavior Model. The CREATE Action Funnel consists of the following elements:
+### 了解決策過程：CREATE操作渠道
+![CREATE action funnel](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7606360d-9ba0-421a-abef-cbd7f98f5f5d/The_CREATE_Action_Funnel.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150313Z&X-Amz-Expires=86400&X-Amz-Signature=1355682bc87af13acea1069f729249961a5b0de1eeb08a0fdaba7100064a33a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22The_CREATE_Action_Funnel.jpg%22)
 
-- Triggered **Cue**: A cue can be either internal or external. **External cues** can be e.g. text messages, emails or seeing e.g. running shoes. When the mind drifts automatically to the action, then it represents an **internal cue**. For external cues, it's best practice to a) place the product into the user's daily environment, b) to give each time a different cue to avoid being ignored, c) building strong associations with the user's existing routines.
-- Intuitive **Reaction**: If you ask people to do something, you are addressing their conscious, or slow-thinking mode. But it is the intuitive, fast-thinking mode you gotta pass first. We usually know within milliseconds, whether we want to do something, or not. At this stage, it is best practice to win users **trust** by being **authentic**, displaying **social proof** and displaying **strong authority on the subject**. Make sure, that the *first time user experience* is frictionless, frustration-free and generally positive. The first impression will dictate a large portion of **customer-lifetime-value**.
-- Conscious **Evaluation**: After you obtained the user's attention, and the initial reaction wasn't negative the user will now evaluate the costs and benefits. What you want to deliver at this stage are short and concise arguments, which educate the user about the benefits of the product and downplay the perceived costs of taking action. It is best practice to **highlight the benefits**, **minimize the costs** and **downplay the alternatives**. Consider this short example: _"Take the bike to work. It will keep you fit, make you lose weight and lengthen your life. Because you aren't constrained to roads, you can find the optimal, shortest route and save time. Compared to cars, you will avoid long traffic jams and high purchasing, insurance, maintenance, fuel and value depreciation costs."_
-- **Ability** Check: Once the decision has been made to do the action, is it actually **feasible** and realistic? The user must know clearly, what **steps** are required to successfully execute. Furthermore, that user must have the **resources** required for action. Also, the user must have the necessary **skills**. Last but not least, no user will ever do something what's going to fail. The user must be **convinced in the success of the action**.
-- **Timing** check: At this stage, the user is aware of the action and has made the decision to do it. But does he really have to do it **now**? Why not postpone/procrastinate it indefinitely..and end up doing nothing, at all? You gotta create **urgency**. Urgency can be either internal or external. External urgency is e.g. when you know, that you have to put in your taxes (otherwise, the IRS will come to you). Internal urgency can be either stronger like e.g. hunger, thirst; or weaker like e.g. boredom. Users can also be convinced to do something without urgency. Sometimes, a great help is to be **specific**. Consider this example: "You should exercise regularly." vs. "Exercise tomorrow morning at 7 A.M.". The last one feels more real, right? And helps us to remember it, too.
-- **Execution**: Yay! The user passed through all stages of the CREATE action funnel and executed the action. But don't become complacent too soon...the user executed it just **once**. It would be cool, if the user would do it repeatedly. And it would be best, if you don't have to ask or remind the user at all, because it has become a deeply embedded habit. If you want to understand, how to build long-lasting habits, then read on in the next section.
+*參考來源：https://www.nirandfar.com/wp-content/uploads/2014/08/Screenshot-2014-08-23-11.51.05.png*
 
-### Building Habits: The Hook Model
-![Nir Eyals Hook Model](http://i.imgur.com/xM2O614.png)
+Stephen Wendel 撰寫的 CREATE Action Funnel 對解釋行為和行為很有用，其粒度比，例如 BJ Fogg 的行為模型。 CREATE Action Funnel 由以下元素組成：
 
-When actions are repeatedly done, they become a habit. A habit is a hardwired routine, which costs very little mental resources, is easy to do and very hard to unlearn. Nir Eyal's Hook model explains perfectly, how habits can be formed. Let's come back to our Instagram example:
+- 觸發的**提示**：提示可以是內部的或外部的。外部提示可以是例如短信，電子郵件或看到例如跑鞋。當頭腦自動轉向動作時，則表示**內部提示**。對於**外部提示**，最佳實踐是：a）將產品放置在用戶的日常環境中； b）每次給出不同的提示以避免被忽略； c）與用戶的現有例程建立牢固的關聯。
+- 直覺**反應**：如果你要求人們做某事，則是在解決他們的有意識或思維緩慢的模式。但這是你首先要通過的直觀，快速思考的模式。我們通常會在幾毫秒內知道是否要做某事。在此階段，最佳實踐是通過**真實**，顯示**社交證據**和**顯示強大的權威性**來贏得用戶的**信任**。確保*第一次用戶體驗*無摩擦，無挫敗且總體上是積極的。第一印象將決定**客戶生命週期價值**的很大一部分。
+- 有意識的**評估**：
+在獲得用戶的關注並且最初的反應不是負面的之後，用戶現在將評估成本和收益。在此階段您想要提供的是簡短明了的論據，這些論點使用戶了解產品的好處，而淡化了採取行動的預期成本。最佳實踐是突出優勢，**最小化成本並淡化替代方案**。請看以下簡短範例：*「騎自行車上班。它將使您保持身體健康，減輕體重並延長壽命。由於您不受道路限制，因此可以找到最佳，最短的路線並節省時間。汽車，您將避免長時間的交通擁堵以及高昂的購買，保險，維護，燃料和價值折舊費用。」*
+- **能力檢查**：一旦決定要採取行動，這實際上可行且現實嗎？用戶必須清楚地知道成功執行所需的步驟。此外，該用戶必須具有**執行**操作所需的資源。另外，用戶必須具備必要的**技能**。最後但並非最不重要的一點是，沒有用戶會做會失敗的事情。**必須使用戶確信操作成功**。
+- 定時檢查：在此階段，用戶知道該操作並已決定執行該操作。但是他真的**現在**必須這樣做嗎？為什麼不無限期地推遲/拖延呢，而最終什麼也不做呢？你必須創造**緊迫感**。緊急情況可以是內部的，也可以是外部的。外部緊迫性，例如當你知道時，你必須繳稅（否則，國稅局將向你收取稅款）。內部緊迫性可能更強，例如飢渴或更弱，例如無聊。也可以說服用戶毫無緊迫地做某事。有時，要**具體**說明一個很大的幫助。考慮以下範例：「你應該定期鍛煉。」對比「明天早上 7 點鍛煉」。最後一個感覺更真實吧？並幫助我們記住它。
+- **執行**：是的！用戶經過行為漏斗的所有階段並執行了該操作。但是不要太自滿...用戶只執行了**一次**。如果用戶反覆這樣做，那將很酷。如果你根本不需要詢問或提醒用戶，那將是最好的選擇，因為它已成為一種根深蒂固的習慣。如果您想了解如何養成持久的習慣，請在下一節中繼續閱讀。
 
-- **External Triggers**: Instagram notifies Peter, when his friends start e.g. a live feed. Also, whenever someone drops a comment on Peters photos, Instagram sends immediate **push notifications**.
+### 養成習慣：鉤癮效應
 
-- **Internal Triggers**: Peters constant usage of Instagram is hardwired into his brain. Whenever he felt bored, he automatically opened his Instagram to relieve his boredom. In his mind the "getting rid of boredom" routine is now directly **associated** with Instagram.
+![Nir Eyals Hook Model](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9fa46b08-ebdd-4a52-a86c-53206837b84d/Building_Habits_The_Hook_Model.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150353Z&X-Amz-Expires=86400&X-Amz-Signature=2813095d59ca818d7c19a7ff61cdec6bd5389409b2ca0ee0e2763e09d1a54b88&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Building_Habits_The_Hook_Model.jpg%22)
 
-- **Ability**: Peter feels proud, because he has 22k followers. It means, that his content, personality and hobbies are worthy of attention. It makes him proud and motivates him to use Instagram on a daily basis, because he craves **social acceptance**. The famous watch manufacturer Daniel Wellington became aware of Peter's status and offered him a lucrative deal: he advertises DW watches, and get's a percentage of the purchase. Instagram offers Peter a great opportunity to get **money**. This motivation keeps Peter for at least an hour occupied on Instagram, every day.
+當重複執行動作時，它們就成為一種習慣。習慣是一種固定的習慣，花費很少的精神資源，容易做到且非常難於學習。 Nir Eyal 的 鉤癮模型完美地解釋瞭如何養成習慣。讓我們回到我們的 Instagram 範例：
 
-- **Variable Reward**: Peter has great interest in bodyweight exercises. He follows some calisthenics celebrities on Instagram. He is always searching for new ways to improve his workouts. At the same time, he wants to track his progress with his Daniel Wellington watch sales. He never knows, what type of new content he will encounter. This thin veil of mystery - the **variable reward** - keeps Peter coming back to Instagram.
+- **外部觸發因素**：Instagram 會在彼得的朋友開始時通知彼得，例如實時供稿。此外，每當有人對彼得的照片發表評論時，Instagram 都會立即**發送推送通知**。
+- **內部觸發因素**：彼得不斷使用 Instagram 已根深蒂固。每當他感到無聊時，他都會自動打開自己的 Instagram 來緩解無聊。在他看來，**「擺脫無聊」**的慣例現在與 Instagram 直接相關。
+- **能力**：彼得感到自豪，因為他有 22k 粉絲。這意味著，他的內容，個性和愛好值得關注。這使他感到自豪，並激勵他每天使用 Instagram，因為他渴望得到**社會的認可**。著名的鐘錶製造商丹尼爾·惠靈頓（Daniel Wellington）意識到了彼得的身份，並為他提供了一筆可觀的交易：他在 DW 手錶上做廣告，並從中獲得一定的購買百分比。 Instagram 為彼得提供了絕佳的**獲利機會**。這種動機使彼得每天至少要在 Instagram 上呆一個小時。
+- 可變獎勵：彼得對體重鍛煉非常感興趣。他在 Instagram 上關注健美操名人。他一直在尋找改善鍛煉方式的新方法。同時，他想追蹤 Daniel Wellington 手錶的銷售進度。他永遠不知道自己將遇到哪種新內容。這種神秘的面紗 - **可變的報酬**-使彼得再次回到 Instagram。
+- 投資：彼得是個肥胖症嚴重的人。他開始在 Instagram 上發布自己的進度。在 2 年內，他減了 60磅。感覺很棒，因為志趣相投的人鼓勵他，並將他推向新的高度。彼得發表有關自己的進步的文章越多，得到的反饋就越積極。彼得關於自己的文章越多，他就越感到被**獎勵**。他對 Instagram 平台的**投資**獲得了回報。
 
-- **Investment**: Peter was a heavily obese person. He started posting his progress on Instagram. Within 2 years, he lost 60 pounds. It felt great, because like-minded people encouraged and pushed him to new heights. The more Peter posts about his progress, the more positive feedback he gets. The more Peter posts about himself, the more he feels **rewarded**. His **investment** into the Instagram platform pays off.
+彼得越過鉤癮週期，他對 Instagram 的依賴就越堅定。現在，經過 2 年的使用，他無法想像沒有使用 Instagram 的生活。使用 Instagram 已成為一種根深蒂固的習慣。
 
-The more Peter goes through the Hook cycle, the firmer his dependence on Instagram becomes. Now, after 2 years of usage, he can't imagine a life without using Instagram. Using Instagram has become a deeply embedded habit.
+## 將所有內容統一到UX願景: 客戶體驗藍圖
 
-## Unifying Everything Into a Cohesive UX Vision: The Customer Experience Map
-Let's recall what we've learned so far:
-- Persuasive technology, behavioral economics, digital paternalism and nudges are everywhere. We are constantly hammered by them. You understand, why you e.g. wasted lots of time on social media. **It's not your fault** - it's all thanks to well executed **UX patterns**.
-- Humans aren't always rational. Humans have a **slow**, conscious, deliberate thinking mode; and a **fast**, intuitive thinking mode.
-- You can use that fact to your advantage. You can influence user behavior by using UX patterns aka **nudges**. You learned a dozen standard nudges, which can be directly integrated into your app.
-- You learned, how to **decompose and explain** user behavior with frameworks such as **BJ Fogg's Behavior Model** and **Stephen Wendels CREATE Action Funnel**.
-- You learned, how to effectively build habits with **Nir Eyal's Hook Model**.
+讓我們回想一下到目前為止所學到的內容：
 
-Now, it is time to package everything into a **cohesive vision** of how your product should enrich the user's life. For that task, the **customer experience map** by Mel Edwards is excellent. It explains all stages of customer engagement on an intuitive storyboard:
+- 說服力的技術，行為經濟學，數位化和推力無處不在。我們不斷被他們錘打。你了解為什麼在社交媒體上浪費了很多時間。**這不是您的錯** - 這全歸功於執行良好的 **UX 模式**。
+- 人類並不總是理性的。人類有一個**緩慢的**，有意識的，刻意的思維方式；以及**快速，直觀**的思維模式。
+- 你可以利用這一事實來發揮自己的優勢。你可以通過使用 **UX 模式（又稱為推力）**來影響用戶行為。你學會了十幾種標準功能，可以將它們直接集成到你的 App 中。
+- 你了解瞭如何使用 BJ Fogg 的行為模型和 Stephen Wendels CREATE Action Funnel 等框架分解和解釋用戶行為。
+- 你了解瞭如何使用 **Nir Eyal 的 鉤癮模型**有效養成習慣。
 
-> "[The Customer Experience Map is] a graphical representation of the service journey of a customer. It shows their perspective from the beginning, middle and end as they engage a service to achieve their goal, showing the range of tangible and quantitative interactions, triggers and touchpoints, as well as the intangible and qualitative motivations, frustrations and meanings." -[Mel Edwards](https://desonance.wordpress.com/2010/06/16/customer-experience-mapping/)
+現在，是時候將所有內容整理成一個緊密的願景，以使你的產品如何豐富用戶的生活。對於該任務，Mel Edwards 的客戶體驗圖非常出色。它在直觀的故事板上說明了客戶參與的所有階段：
 
-Below, you see an example of a customer experience map for a government service - getting a proof-of-age ID card. Don't be overwhelmed, we'll go through each section one by one.
+> 「[客戶體驗圖] 是客戶服務歷程的圖形表示。它顯示了他們從開始，中間和結束時就參與服務以實現其目標的觀點，並顯示了有形和定量的相互作用，觸發因素的範圍。和接觸點，以及無形和定性的動機，挫敗感和意義。」梅德·愛德華茲
+
+在下面，你可以看到政府服務的客戶體驗地圖的範例 - 獲取年齡證明 ID 卡。不要不知所措，我們將逐一逐一介紹每個部分。
 
 ![Mel Edwards Customer Experience Map](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/images/customer_experience_map.png)
 
-*Referenced from [https://desonance.files.wordpress.com/2012/07/cxexample_highres_desonance.pdf](https://desonance.files.wordpress.com/2012/07/cxexample_highres_desonance.pdf)*
+*參考來源：[https://desonance.files.wordpress.com/2012/07/cxexample_highres_desonance.pdf](https://desonance.files.wordpress.com/2012/07/cxexample_highres_desonance.pdf)*
 
-Now, it's your turn to draft a great, cohesive User Experience Map:
+現在，你該擬出一個出色的，有凝聚力的用戶體驗圖：
 
-- If you want to create a UX map on your computer, [click here for a ready-to-use Word template](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/resources/ux_map.docx)
-- If you want to create a UX map in a live brainstorming session, [click here for a printer-friendly PDF template](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/resources/ux_map.pdf)
+- 如果要在電腦上創建 UX 地圖，請點擊[此處](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/resources/ux_map.docx)以獲取即用型 Word 模板
+- 如果要在現場腦力激盪中創建 UX 地圖，請點擊[此處](https://github.com/togiberlin/ui-ux-designer-roadmap/raw/master/resources/ux_map.pdf)以獲取易於印出的 PDF 模板
 
 ### Recommended Readings
+
 This guide explained in **20%** of time **80%** of all concepts. However if you want to dig deeper, I highly recommend reading the following books. You can find them on e.g. Amazon:
 
 - [**Wendel, Stephen (2013)**: _"Designing for Behavior Change: Applying Psychology and Behavioral Economics"_, O'Reilly Media, USA](http://amzn.to/2s8IVsX) 
