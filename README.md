@@ -422,5 +422,6 @@ If you are interested in contributing to this repo, we use [Balsamiq Mockups](ht
 
 * [CourtneyLiang](https://github.com/CourtneyLiang)
 
-* Tracy Lai
+* [Tracy Lai](https://issuu.com/weiminlai)
+
 * Carina Lin
