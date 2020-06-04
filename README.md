@@ -7,7 +7,7 @@ Roadmap to becoming a UI/UX Designer in 2020
 
 在下列內容中，你可以依循路線地圖去了解如何成為一個 UI/UX 設計師。文章內列舉了所有常用的工具以及趨勢，讓你可以成為一個數位文化的創作者。這份地圖的靈感來自於 [如何成為一個網站開發者](https://github.com/kamranahmedse/developer-roadmap)
 
-您也可以提出任何改進 [issue](https://github.com/KlearThink/ui-ux-designer-roadmap-2020/issues)，或者提交您的 [pull request](https://github.com/KlearThink/ui-ux-designer-roadmap/pulls) 🙃
+您也可以提出任何改進 [issue](https://github.com/KlearThink/ui-ux-designer-roadmap-2020/issues)，或者提交您的 [pull request](https://github.com/KlearThink/ui-ux-designer-roadmap-2020/pulls) 🙃
 
 ## 📖 目錄
 
