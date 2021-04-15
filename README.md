@@ -286,7 +286,7 @@ Instagram 有一個自動播放的 UX 模式。如果你什麼也不做，Instag
 
 下圖顯示了斯蒂芬·溫德爾的思維干預範圍。
 
-![Spectrum of Thinking Interventions](githublink/images/zh-tw/Thinking_Fast__Slow_Dual_Process_Theory.jpg)
+![Spectrum of Thinking Interventions](https://gitcdn.link/repo/KlearThink/ui-ux-designer-roadmap-2020/master/images/zh-tw/Thinking_Fast__Slow_Dual_Process_Theory.jpg)
 
 透過重複動作，例如「啟發式方法」向左移動並成為「習慣」。
 
