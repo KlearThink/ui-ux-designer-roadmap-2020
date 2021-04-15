@@ -60,14 +60,14 @@ Roadmap to becoming a UI/UX Designer in 2020
 - **當我們談到使用者介面時，經常會聯想到圖像設計、顏色、字體、背景、按鈕、圖片與圖標等等**
 - **當人們提到使用者體驗時，通常指的是與心理學、人類決策、用戶研究、角色與用戶故事、工作流程、A/B 測試、統計評估等等**
 
-![Intro Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bc061a04-5119-4b63-938f-2a9bff7e62e7/Distinguishing_Between_UI_and_UX.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T145708Z&X-Amz-Expires=86400&X-Amz-Signature=9af1e00638400832f09fb3c357a4881c7c09e2499302f8c99d40889bc5f8d7f2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Distinguishing_Between_UI_and_UX.jpg%22)
+![Intro Roadmap](https://gitcdn.link/repo/KlearThink/ui-ux-designer-roadmap-2020/master/images/en/business_model_canvas_poster.png)
 在設計任何東西之前，首要任務是了解商業模型。你想幫助你的客戶解決什麼痛點？為此，我建議你使用[商業模型畫布圖]((http://s3.amazonaws.com/academia.edu.documents/32253198/businessmodelgenerationpreview.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1497631663&Signature=Is7e1dMbArrSpo%2FOJnACX3dtzEk%3D&response-content-disposition=inline%3B%20filename%3DYoure_holding_a_handbook_for_visionaries.pdf))。可以點選這裡[下載](https://canvanizer.com/downloads/business_model_canvas_poster.pdf)。
 
 ## 🎨 UI 學習路徑圖
 
 在使用者設計的領域，目前主流的工具有 [Sketch](https://www.sketchapp.com/)、[Adobe XD](http://www.adobe.com/de/products/experience-design.html)、[Adobe Photoshop](http://www.adobe.com/de/products/photoshop.html) 和 [Adobe Illustrator](http://www.adobe.com/de/products/illustrator.html)，部分設計師在工作上會被要求具備 HTML 和 CSS 的能力，所以我將他們涵括在（譯者團隊備註：並不是必須的，但能理解原理對於設計功力與適合度會更上一層樓）。
 
-![UI Designer Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/348f5fe9-6d5d-40d6-aec2-52f3d931e0c2/User_Interface_Designer_Roadmap.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T145807Z&X-Amz-Expires=86400&X-Amz-Signature=dc7d142c93a3a4f12632c068600f02be4ea28a1c8513d0a05d4f5c84266200ae&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22User_Interface_Designer_Roadmap.jpg%22)
+![UI Designer Roadmap](https://gitcdn.link/repo/KlearThink/ui-ux-designer-roadmap-2020/master/images/zh-tw/Distinguishing_Between_UI_and_UX.jpg)
 
 ### Apple Human Interface Guideline
 
@@ -108,7 +108,7 @@ Roadmap to becoming a UI/UX Designer in 2020
 - Material每個物件都是獨立體積，既不能物體之間互相穿透，不會有半透明、融合、彎折等現象表現，且必須平行於螢幕上
 - Material有靈活的形狀表現，能夠多個組成一個，也能一個拆成多個。
 - 所有Material物件都有一個靜止高度，不論這個物件是一個小元件或者是一個橫跨整個顯示畫面的表單。
-- Ｍaterial Design重視動畫效果，它反覆強調一點：動畫不只是裝飾，它有含義，能表達元素、介面之間的關係，具備功能上的作用。
+- Material Design重視動畫效果，它反覆強調一點：動畫不只是裝飾，它有含義，能表達元素、介面之間的關係，具備功能上的作用。
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/720fd7f5-8748-4bbf-bb2e-5c6f861146de/whatismaterial_environment_3d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T162542Z&X-Amz-Expires=86400&X-Amz-Signature=d8b33378e7737db0b8081782b8afc6767081296c3c4de936b95c1533d1756521&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22whatismaterial_environment_3d.png%22)
 
@@ -186,7 +186,7 @@ Instagram 有一個自動播放的 UX 模式。如果你什麼也不做，Instag
 
 透過這些例子，應該可以更加清楚，使用者體驗 (UX) 是 App 成功和留住用戶的關鍵。事不宜遲，以下是UX路線圖：
 
-![UX Researcher Roadmap](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1b5e803b-253a-4eb1-b200-8c40fc86ba7a/User_Experience_Researcher_Roadmap.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150112Z&X-Amz-Expires=86400&X-Amz-Signature=475f3db2c5e0411a74b55c38be54533acd1440194eef6113244b494ac42f0a28&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22User_Experience_Researcher_Roadmap.jpg%22)
+![UX Researcher Roadmap](https://gitcdn.link/repo/KlearThink/ui-ux-designer-roadmap-2020/master/images/zh-tw/User_Experience_Researcher_Roadmap.jpg)
 
 若想更了解圖內的專業用詞，請往下滑至下一章節，我們將介紹更多成功的 UX 實例。
 
@@ -286,7 +286,7 @@ Instagram 有一個自動播放的 UX 模式。如果你什麼也不做，Instag
 
 下圖顯示了斯蒂芬·溫德爾的思維干預範圍。
 
-![Spectrum of Thinking Interventions](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/febbcb74-f155-4367-94a3-bd1627cf42ed/Thinking_Fast__Slow_Dual_Process_Theory.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150256Z&X-Amz-Expires=86400&X-Amz-Signature=7004847e1440a8aeeb45a47f96490fe2f302b3606cd905ed80a2ab1308505d8a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Thinking_Fast__Slow_Dual_Process_Theory.jpg%22)
+![Spectrum of Thinking Interventions](githublink/images/zh-tw/Thinking_Fast__Slow_Dual_Process_Theory.jpg)
 
 透過重複動作，例如「啟發式方法」向左移動並成為「習慣」。
 
@@ -320,7 +320,7 @@ Instagram 有一個自動播放的 UX 模式。如果你什麼也不做，Instag
 - **出現的行為**：我去了 Apple Store。再次驗證其功能和整體用戶體驗後，我決定**購買** Apple Watch運動版。
 
 ### 了解決策過程：CREATE操作渠道
-![CREATE action funnel](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7606360d-9ba0-421a-abef-cbd7f98f5f5d/The_CREATE_Action_Funnel.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150313Z&X-Amz-Expires=86400&X-Amz-Signature=1355682bc87af13acea1069f729249961a5b0de1eeb08a0fdaba7100064a33a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22The_CREATE_Action_Funnel.jpg%22)
+![CREATE action funnel](https://gitcdn.link/repo/KlearThink/ui-ux-designer-roadmap-2020/master/images/zh-tw/The_CREATE_Action_Funnel.jpg)
 
 *參考來源：https://www.nirandfar.com/wp-content/uploads/2014/08/Screenshot-2014-08-23-11.51.05.png*
 
@@ -336,7 +336,7 @@ Stephen Wendel 撰寫的 CREATE Action Funnel 對解釋行為和行為很有用�
 
 ### 養成習慣：鉤癮效應
 
-![Nir Eyals Hook Model](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9fa46b08-ebdd-4a52-a86c-53206837b84d/Building_Habits_The_Hook_Model.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200530T150353Z&X-Amz-Expires=86400&X-Amz-Signature=2813095d59ca818d7c19a7ff61cdec6bd5389409b2ca0ee0e2763e09d1a54b88&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Building_Habits_The_Hook_Model.jpg%22)
+![Nir Eyals Hook Model](https://gitcdn.link/repo/KlearThink/ui-ux-designer-roadmap-2020/master/images/zh-tw/Building_Habits_The_Hook_Model.jpg)
 
 當重複執行動作時，它們就成為一種習慣。習慣是一種固定的習慣，花費很少的精神資源，容易做到且非常難於學習。 Nir Eyal 的 鉤癮模型完美地解釋瞭如何養成習慣。讓我們回到我們的 Instagram 範例：
 
@@ -421,7 +421,5 @@ If you are interested in contributing to this repo, we use [Balsamiq Mockups](ht
 * [yasuoyuhao](https://github.com/yasuoyuhao)
 
 * [CourtneyLiang](https://github.com/CourtneyLiang)
-
-* [Tracy Lai](https://issuu.com/weiminlai)
 
 * Carina Lin
